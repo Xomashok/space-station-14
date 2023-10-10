@@ -21,7 +21,7 @@
 - type: entity
   name: experimental hypospray
   suffix: Admeme
-  parent: SyndiHypo
+  parent: SyndiHypoSB
   description: The ultimate application of bluespace technology and rapid chemical administration.
   id: BorgHypo
   components:
