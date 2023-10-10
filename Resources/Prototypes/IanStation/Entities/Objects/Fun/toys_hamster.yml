@@ -183,11 +183,11 @@
     state: hamster_varden
 
 - type: entity
-  parent: PlushieXceno
-  id: PlushieXcenoCat
+  parent: PlushieXeno
+  id: PlushieXсenoCat
   name: Плюшевая ксено кошка 
   description: Демо версия ксено кошки.
   components:
   - type: Sprite
     sprite: IanStation/Objects/Fun/toys_xeno_cat.rsi
-    state: plushie_xceno
+    state: plushie_xeno
