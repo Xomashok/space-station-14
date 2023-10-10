@@ -23,7 +23,7 @@
     items:
     - StunbatonBorg
     - WeaponDisablerBorg
-    - BorgHypo
+    - BorgHypoSB
 
 - type: entity
   id: BorgModuleCombat
