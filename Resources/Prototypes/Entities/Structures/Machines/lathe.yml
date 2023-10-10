@@ -446,6 +446,12 @@
     - RightLegBorgService
     - HeadBorgService
     - TorsoBorgService
+    - LightHeadBorgSB #IanStation
+    - LeftArmBorgSB #IanStation
+    - LeftLegBorgSB #IanStation
+    - RightArmBorgSB #IanStation
+    - RightLegBorgSB #IanStation
+    - TorsoBorgSB #IanStation
     dynamicRecipes:
     - ProximitySensor
     - BorgModuleLightReplacer
@@ -486,6 +492,8 @@
     - HamtrLLeg
     - HamtrRLeg
     - VimHarness
+    - BorgModuleArrest #IanStation
+    - BorgModuleCombat #IanStation
   - type: MaterialStorage
     whitelist:
       tags:
