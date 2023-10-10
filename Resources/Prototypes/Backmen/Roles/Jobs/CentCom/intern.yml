@@ -14,13 +14,13 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 108000
+      time: 54000
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 108000
+      time: 54000
     - !type:DepartmentTimeRequirement
       department: Civilian
-      time: 108000
+      time: 54000
   access:
     - CCGeneral
   accessGroups:
