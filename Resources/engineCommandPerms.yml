@@ -99,8 +99,6 @@
   - delete
   - pausemap
   - unpausemap
-  - restart
-  - shutdown
 
 - Flags: SPAWN
   Commands:
@@ -124,6 +122,8 @@
   - fuck
   - replay_recording_start
   - replay_recording_stop
+  - restart
+  - shutdown
 
 - Flags: QUERY
   Commands:
