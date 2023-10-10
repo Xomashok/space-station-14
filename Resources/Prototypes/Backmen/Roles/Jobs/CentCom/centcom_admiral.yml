@@ -15,13 +15,13 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobCentralCommandOperator
-      time: 21600
+      time: 10800
     - !type:RoleTimeRequirement
       role: JobCentralCommandOfficial
-      time: 21600
+      time: 10800
     - !type:DepartmentTimeRequirement
       department: CentCom
-      time: 31600
+      time: 15800
   accessGroups:
     - AllAccess
     - CentCom
