@@ -1,0 +1,10 @@
+- type: cargoProduct
+  id: FunMobXcenoCat
+  icon:
+    sprite: IanStation/Objects/Fun/toy_xceno_cat.rsi
+    state: plushie_xeno
+  product: CrateFunMobXenoCat
+  cost: 20000
+  category: Fun
+  group: market
+

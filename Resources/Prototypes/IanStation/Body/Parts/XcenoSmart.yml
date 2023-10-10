@@ -1,0 +1,186 @@
+# TODO: Add descriptions (many)
+# TODO BODY: Part damage
+- type: entity
+  id: PartXcenoSmart
+  parent: BaseItem
+  name: "Xceno body part"
+  abstract: true
+  components:
+  - type: Damageable
+    damageContainer: Biological
+  - type: BodyPart
+  - type: ContainerContainer
+    containers:
+      bodypart: !type:Container
+        ents: []
+  - type: StaticPrice
+    price: 100
+  - type: Tag
+    tags:
+      - Trash
+
+- type: entity
+  id: TorsoXcenoSmart
+  name: "Xceno torso"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "torso_m"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "torso_m"
+  - type: BodyPart
+    partType: Torso
+
+- type: entity
+  id: HeadXcenoSmart
+  name: "Xceno head"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "head_m"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "head_m"
+  - type: BodyPart
+    partType: Head
+    vital: true
+  - type: Input
+    context: "ghost"
+  - type: Tag
+    tags:
+      - Head
+
+- type: entity
+  id: LeftArmXcenoSmart
+  name: "left Xceno arm"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "l_arm"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "l_arm"
+  - type: BodyPart
+    partType: Arm
+    symmetry: Left
+
+- type: entity
+  id: RightArmXcenoSmart
+  name: "right Xceno arm"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "r_arm"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "r_arm"
+  - type: BodyPart
+    partType: Arm
+    symmetry: Right
+
+- type: entity
+  id: LeftHandXcenoSmart
+  name: "left Xceno hand"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "l_hand"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "l_hand"
+  - type: BodyPart
+    partType: Hand
+    symmetry: Left
+
+- type: entity
+  id: RightHandXcenoSmart
+  name: "right Xceno hand"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "r_hand"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "r_hand"
+  - type: BodyPart
+    partType: Hand
+    symmetry: Right
+
+- type: entity
+  id: LeftLegXcenoSmart
+  name: "left Xceno leg"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "l_leg"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "l_leg"
+  - type: BodyPart
+    partType: Leg
+    symmetry: Left
+  - type: MovementBodyPart
+
+- type: entity
+  id: RightLegXcenoSmart
+  name: "right Xceno leg"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "r_leg"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "r_leg"
+  - type: BodyPart
+    partType: Leg
+    symmetry: Right
+  - type: MovementBodyPart
+
+- type: entity
+  id: LeftFootXcenoSmart
+  name: "left Xceno foot"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "l_foot"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "l_foot"
+  - type: BodyPart
+    partType: Foot
+    symmetry: Left
+
+- type: entity
+  id: RightFootXcenoSmart
+  name: "right Xceno foot"
+  parent: PartXcenoSmart
+  components:
+  - type: Sprite
+    netsync: false
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "r_foot"
+  - type: Icon
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: "r_foot"
+  - type: BodyPart
+    partType: Foot
+    symmetry: Right

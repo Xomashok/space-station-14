@@ -1,0 +1,14 @@
+- type: reaction
+  id: rat-poison
+  impact: Medium
+  reactants:
+   Sugar:  
+    amount: 4
+   Phosphorus:
+    amount: 2
+   SodiumCarbonate:
+    amount: 2
+   Plasma:
+    amount: 1  
+  products:
+    rat-poison: 10

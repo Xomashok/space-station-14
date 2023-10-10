@@ -1,0 +1,8 @@
+- type: entity
+  id: CrateFunMobXenoCat
+  parent: CrateLivestock
+  components:
+  - type: StorageFill
+    contents:
+      - id: MobXenoCat
+        amount: 1
