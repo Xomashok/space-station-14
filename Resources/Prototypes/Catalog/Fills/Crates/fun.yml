@@ -26,7 +26,7 @@
       - id: PlushieMoth
       - id: Hamster
         orGroup: Hamster
-      - id: PlushieXenoCat
+      - id: PlushieXcenoCat
 
 - type: entity
   id: CrateFunInstrumentsVariety
