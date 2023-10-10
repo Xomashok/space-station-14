@@ -14,13 +14,13 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 108000
+      time: 54000
     - !type:RoleTimeRequirement
       role: JobHeadOfSecurity
-      time: 3600
+      time: 1800
     - !type:RoleTimeRequirement
       role: JobCentralCommandAssistant
-      time: 3600
+      time: 1800
   access:
     - CCGeneral
     - CCSecurity
