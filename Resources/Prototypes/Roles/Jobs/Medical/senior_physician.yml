@@ -12,7 +12,7 @@
       time: 10800
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 10800
+      time: 108000
   startingGear: SeniorPhysicianGear
   icon: "JobIconSeniorPhysician"
   supervisors: job-supervisors-cmo
