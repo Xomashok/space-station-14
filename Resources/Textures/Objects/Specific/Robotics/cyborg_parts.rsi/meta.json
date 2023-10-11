@@ -7,40 +7,13 @@
   },
   "states": [
     {
-      "name": "mining_chest"
-    },
-    {
-      "name": "mining_chest\u002Bo"
-    },
-    {
-      "name": "mining_head"
-    },
-    {
-      "name": "mining_head\u002Bo"
-    },
-    {
-      "name": "mining_l_arm"
-    },
-    {
-      "name": "mining_l_arm\u002Bo"
-    },
-    {
-      "name": "mining_l_leg"
-    },
-    {
-      "name": "mining_l_leg\u002Bo"
-    },
-    {
-      "name": "mining_r_arm"
-    },
-    {
-      "name": "mining_r_arm\u002Bo"
+      "name": "mining_r_arm+o"
     },
     {
       "name": "mining_r_leg"
     },
     {
-      "name": "mining_r_leg\u002Bo"
+      "name": "mining_r_leg+o"
     },
     {
       "name": "robo_suit"
@@ -49,43 +22,46 @@
       "name": "service_chest"
     },
     {
-      "name": "service_chest\u002Bo"
+      "name": "service_chest+o"
     },
     {
       "name": "service_head"
     },
     {
-      "name": "service_head\u002Bo"
+      "name": "service_head+o"
     },
     {
       "name": "service_l_arm"
     },
     {
-      "name": "service_l_arm\u002Bo"
+      "name": "service_l_arm+o"
     },
     {
       "name": "service_l_leg"
     },
     {
-      "name": "service_l_leg\u002Bo"
+      "name": "service_l_leg+o"
     },
     {
       "name": "service_r_arm"
     },
     {
-      "name": "service_r_arm\u002Bo"
+      "name": "service_r_arm+o"
     },
     {
       "name": "service_r_leg"
     },
     {
-      "name": "service_r_leg\u002Bo"
+      "name": "service_r_leg+o"
     },
     {
       "name": "borg_chest"
     },
     {
-      "name": "borg_chest\u002Bo"
+      "name": "borg_chest_export"
+    },
+    {
+      "name": "borg_chest+o"
     },
     {
       "name": "borg_chesto_export"
@@ -94,7 +70,10 @@
       "name": "borg_head"
     },
     {
-      "name": "borg_head\u002Bo"
+      "name": "borg_head_export"
+    },
+    {
+      "name": "borg_head+o"
     },
     {
       "name": "borg_heado_export"
@@ -103,7 +82,10 @@
       "name": "borg_l_arm"
     },
     {
-      "name": "borg_l_arm\u002Bo"
+      "name": "borg_l_arm_export"
+    },
+    {
+      "name": "borg_l_arm+o"
     },
     {
       "name": "borg_l_armo_export"
@@ -112,7 +94,10 @@
       "name": "borg_l_leg"
     },
     {
-      "name": "borg_l_leg\u002Bo"
+      "name": "borg_l_leg_export"
+    },
+    {
+      "name": "borg_l_leg+o"
     },
     {
       "name": "borg_l_lego_export"
@@ -121,7 +106,10 @@
       "name": "borg_r_arm"
     },
     {
-      "name": "borg_r_arm\u002Bo"
+      "name": "borg_r_arm_export"
+    },
+    {
+      "name": "borg_r_arm+o"
     },
     {
       "name": "borg_r_armo_export"
@@ -130,7 +118,10 @@
       "name": "borg_r_leg"
     },
     {
-      "name": "borg_r_leg\u002Bo"
+      "name": "borg_r_leg_export"
+    },
+    {
+      "name": "borg_r_leg+o"
     },
     {
       "name": "borg_r_lego_export"
@@ -139,97 +130,124 @@
       "name": "engineer_chest"
     },
     {
-      "name": "engineer_chest\u002Bo"
+      "name": "engineer_chest+o"
     },
     {
       "name": "engineer_head"
     },
     {
-      "name": "engineer_head\u002Bo"
+      "name": "engineer_head+o"
     },
     {
       "name": "engineer_l_arm"
     },
     {
-      "name": "engineer_l_arm\u002Bo"
+      "name": "engineer_l_arm+o"
     },
     {
       "name": "engineer_l_leg"
     },
     {
-      "name": "engineer_l_leg\u002Bo"
+      "name": "engineer_l_leg+o"
     },
     {
       "name": "engineer_r_arm"
     },
     {
-      "name": "engineer_r_arm\u002Bo"
+      "name": "engineer_r_arm+o"
     },
     {
       "name": "engineer_r_leg"
     },
     {
-      "name": "engineer_r_leg\u002Bo"
+      "name": "engineer_r_leg+o"
     },
     {
       "name": "janitor_chest"
     },
     {
-      "name": "janitor_chest\u002Bo"
+      "name": "janitor_chest+o"
     },
     {
       "name": "janitor_head"
     },
     {
-      "name": "janitor_head\u002Bo"
+      "name": "janitor_head+o"
     },
     {
       "name": "janitor_l_leg"
     },
     {
-      "name": "janitor_l_leg\u002Bo"
+      "name": "janitor_l_leg+o"
     },
     {
       "name": "janitor_r_leg"
     },
     {
-      "name": "janitor_r_leg\u002Bo"
+      "name": "janitor_r_leg+o"
     },
     {
       "name": "medical_chest"
     },
     {
-      "name": "medical_chest\u002Bo"
+      "name": "medical_chest+o"
     },
     {
       "name": "medical_head"
     },
     {
-      "name": "medical_head\u002Bo"
+      "name": "medical_head+o"
     },
     {
       "name": "medical_l_arm"
     },
     {
-      "name": "medical_l_arm\u002Bo"
+      "name": "medical_l_arm+o"
     },
     {
       "name": "medical_l_leg"
     },
     {
-      "name": "medical_l_leg\u002Bo"
+      "name": "medical_l_leg+o"
     },
     {
       "name": "medical_r_arm"
     },
     {
-      "name": "medical_r_arm\u002Bo"
+      "name": "medical_r_arm+o"
     },
     {
       "name": "medical_r_leg"
     },
     {
-      "name": "medical_r_leg\u002Bo"
+      "name": "medical_r_leg+o"
+    },
+    {
+      "name": "mining_chest"
+    },
+    {
+      "name": "mining_chest+o"
+    },
+    {
+      "name": "mining_head"
+    },
+    {
+      "name": "mining_head+o"
+    },
+    {
+      "name": "mining_l_arm"
+    },
+    {
+      "name": "mining_l_arm+o"
+    },
+    {
+      "name": "mining_l_leg"
+    },
+    {
+      "name": "mining_l_leg+o"
+    },
+    {
+      "name": "mining_r_arm"
     }
   ]
 }
