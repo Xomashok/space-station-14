@@ -185,8 +185,8 @@
 - type: entity
   parent: PlushieXeno
   id: PlushieXсenoCat
-  name: Плюшевая ксено кошка 
-  description: Демо версия ксено кошки.
+  name: Plushie Xceno cat 
+  description: Demo version of xeno cat.
   components:
   - type: Sprite
     sprite: IanStation/Objects/Fun/toys_xceno_cat.rsi
