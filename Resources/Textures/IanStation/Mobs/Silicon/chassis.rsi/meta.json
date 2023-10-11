@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "license": "CC-BY-SA-3.0",
   "size": {
     "x": 32,
     "y": 32
@@ -10,12 +11,12 @@
       "directions": 4
     },
     {
-      "name": "robot_l",
-      "directions": 4
+        "name": "robot_l",
+        "directions": 4
     },
     {
-      "name": "sb-robot",
-      "directions": 4
+        "name": "sb-robot",
+        "directions": 4
     },
     {
       "name": "robot_e",
