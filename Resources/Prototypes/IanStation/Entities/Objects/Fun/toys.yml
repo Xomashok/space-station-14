@@ -189,5 +189,5 @@
   description: Demo version of xeno cat.
   components:
   - type: Sprite
-    sprite: IanStation/Objects/Fun/toys_xceno_cat.rsi
+    sprite: IanStation/Objects/Fun/toy_xceno_cat.rsi
     state: plushie_xeno
