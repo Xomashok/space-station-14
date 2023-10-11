@@ -15,7 +15,7 @@
     speechSounds: Squeak
   - type: Sprite
     drawdepth: SmallMobs
-    sprite: IanStation/Mobs/Animals/hamsterRobot.rsi
+    sprite: IanStation/Mobs/Animals/hamster_robot.rsi
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: hamster-robot
