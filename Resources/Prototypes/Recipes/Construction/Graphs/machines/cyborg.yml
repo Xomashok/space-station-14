@@ -1,4 +1,4 @@
-﻿- type: constructionGraph
+- type: constructionGraph
   id: Cyborg
   start: start
   graph:
@@ -221,6 +221,40 @@
       - tool: Screwing
         doAfter: 0.5
 
+    - to: security
+      steps:
+      - assemblyId: security
+        guideString: borg-construction-guide-string
+
+      - component: PowerCell
+        name: power cell
+        store: cell_slot
+        icon:
+          sprite: Objects/Power/power_cells.rsi
+          state: small
+
+      - material: Cable
+        amount: 1
+        doAfter: 1
+        store: part-container
+
+      - component: Flash
+        name: flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - component: Flash
+        name: second flash
+        store: part-container
+        icon:
+          sprite: Objects/Weapons/Melee/flash.rsi
+          state: flash
+
+      - tool: Screwing
+        doAfter: 0.5
+
   - node: cyborg
     entity: BorgChassisGeneric
 
@@ -238,3 +272,6 @@
 
   - node: service
     entity: BorgChassisService
+
+  - node: security
+    entity: BorgChassisSB
