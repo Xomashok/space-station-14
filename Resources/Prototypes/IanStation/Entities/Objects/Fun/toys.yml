@@ -189,5 +189,5 @@
   description: Демо версия ксено кошки.
   components:
   - type: Sprite
-    sprite: IanStation/Objects/Fun/toys_xeno_cat.rsi
+    sprite: IanStation/Objects/Fun/toys_xceno_cat.rsi
     state: plushie_xeno
