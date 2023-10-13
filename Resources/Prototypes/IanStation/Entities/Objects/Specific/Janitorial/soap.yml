@@ -1,0 +1,14 @@
+- type: entity
+  name: lambda soap
+  id: SoapLambda
+  parent: Soap
+  description: Более скользкое и опасное мыло, смотрите не подскальзнитесь.
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Specific/Janitorial/soap.rsi
+    state: lambda
+  - type: Slippery
+    paralyzeTime: 60
+    launchForwardsMultiplier: 10
+  - type: Item
+    heldPrefix: lambda
