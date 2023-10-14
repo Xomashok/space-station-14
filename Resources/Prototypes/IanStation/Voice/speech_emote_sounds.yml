@@ -1,0 +1,15 @@
+- type: emoteSounds
+  id: UnisexXcenoSmart
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      path: /Audio/IanStation/Voice/Xceno/hiss6.ogg
+    Laugh:
+      collection: XcenoVoice
+    Honk:
+      collection: BikeHorn
+    Whistle:
+      collection: Whistles
+    Crying:
+      collection: MaleCry

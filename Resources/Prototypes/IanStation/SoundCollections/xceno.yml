@@ -1,0 +1,8 @@
+- type: soundCollection
+  id: XcenoVoice
+  files:
+  - /Audio/IanStation/Voice/Xceno/hiss1.ogg
+  - /Audio/IanStation/Voice/Xceno/hiss2.ogg
+  - /Audio/IanStation/Voice/Xceno/hiss3.ogg
+  - /Audio/IanStation/Voice/Xceno/hiss4.ogg
+  - /Audio/IanStation/Voice/Xceno/hiss5.ogg
