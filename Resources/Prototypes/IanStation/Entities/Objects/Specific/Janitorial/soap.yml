@@ -9,6 +9,6 @@
     state: lambda
   - type: Slippery
     paralyzeTime: 60
-    launchForwardsMultiplier: 10
+    launchForwardsMultiplier: 1
   - type: Item
     heldPrefix: lambda
