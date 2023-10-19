@@ -35,7 +35,7 @@
     mask: ClothingMaskMime
     id: MimePDA
     ears: ClothingHeadsetService
-  innerclothingskirt: ClothingUniformJumpskirtMime
+  innerClothingSkirt: ClothingUniformJumpskirtMime
   satchel: ClothingBackpackSatchelMimeFilled
   duffelbag: ClothingBackpackDuffelMimeFilled
 
