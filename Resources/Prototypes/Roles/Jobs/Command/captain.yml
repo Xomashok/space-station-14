@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   id: Captain
   name: job-name-captain
   description: job-description-captain
@@ -56,6 +56,8 @@
     outerClothing: ClothingOuterArmorCaptainCarapace
     id: CaptainPDA
     ears: ClothingHeadsetAltCommand
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   innerClothingSkirt: ClothingUniformJumpskirtCaptain
   satchel: ClothingBackpackSatchelCaptainFilled
   duffelbag: ClothingBackpackDuffelCaptainFilled

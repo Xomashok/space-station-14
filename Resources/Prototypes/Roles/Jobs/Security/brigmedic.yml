@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   id: Brigmedic
   name: job-name-brigmedic
   description: job-description-brigmedic
@@ -48,6 +48,8 @@
     ears: ClothingHeadsetSecurity
     mask: ClothingMaskSterile
     belt: ClothingBeltMedicalFilled
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   innerClothingSkirt: ClothingUniformJumpskirtBrigmedic
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingBackpackDuffelSecurityFilled

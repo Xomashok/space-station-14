@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   id: ServiceWorker
   name: job-name-serviceworker
   description: job-description-serviceworker
@@ -29,6 +29,8 @@
     shoes: ClothingShoesColorBlack
     id: ServiceWorkerPDA
     ears: ClothingHeadsetService
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   innerClothingSkirt: ClothingUniformJumpskirtBartender
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

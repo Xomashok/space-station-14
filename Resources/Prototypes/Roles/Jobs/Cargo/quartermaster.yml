@@ -45,6 +45,8 @@
     ears: ClothingHeadsetQM
     belt: BoxFolderClipboard
     pocket1: AppraisalTool
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   innerClothingSkirt: ClothingUniformJumpskirtQM
   satchel: ClothingBackpackSatchelQuartermasterFilled
   duffelbag: ClothingBackpackDuffelQuartermasterFilled

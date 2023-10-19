@@ -65,6 +65,8 @@
     pocket1: MedicatedSuture
     pocket2: MagazineBoxLightRifle
     outerClothing: ClothingOuterArmorBasic
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
 
 - type: entity
   parent: BasePDA

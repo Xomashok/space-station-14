@@ -50,6 +50,8 @@
     id: CCCargoPDA
     ears: ClothingHeadsetCentCom
     pocket1: AppraisalTool
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   innerClothingSkirt: ClothingUniformJumpskirtCargo
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

@@ -52,6 +52,8 @@
     id: CCOperatorPDA
     ears: ClothingHeadsetCentCom
     pocket1: ClothingMaskGasCentcom
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   innerClothingSkirt: ClothingUniformJumpskirttCentcomVeryOfficial
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

@@ -44,5 +44,7 @@
     pocket2: ClownRecorder
     id: ClownPDA
     ears: ClothingHeadsetService
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   satchel: ClothingBackpackSatchelClownFilled
   duffelbag: ClothingBackpackDuffelClownFilled

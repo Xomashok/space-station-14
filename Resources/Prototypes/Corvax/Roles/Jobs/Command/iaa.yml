@@ -39,6 +39,8 @@
     eyes: ClothingEyesGlassesSunglasses
     ears: ClothingHeadsetIAA
     neck: ClothingNeckLawyerbadge
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
   satchel: ClothingBackpackSatchelIAAFilled
   duffelbag: ClothingBackpackDuffelIAAFilled

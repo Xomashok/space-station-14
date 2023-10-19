@@ -26,6 +26,8 @@
     ears: ClothingHeadsetService
     pocket1: d10Dice
     pocket2: HandLabeler # for making named bestsellers
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   inhand:
     - BriefcaseBrownFilled
   innerClothingSkirt: ClothingUniformJumpskirtLibrarian

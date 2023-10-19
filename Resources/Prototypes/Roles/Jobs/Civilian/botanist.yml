@@ -30,6 +30,8 @@
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterApronBotanist
     belt: ClothingBeltPlantFilled
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   innerClothingSkirt: ClothingUniformJumpskirtHydroponics
   satchel: ClothingBackpackSatchelHydroponicsFilled
   duffelbag: ClothingBackpackDuffelHydroponicsFilled

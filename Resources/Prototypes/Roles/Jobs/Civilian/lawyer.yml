@@ -30,6 +30,8 @@
     id: LawyerPDA
     ears: ClothingHeadsetSecurity
     # TODO add copy of space law
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   inhand:
     - BriefcaseBrownFilled
   innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack

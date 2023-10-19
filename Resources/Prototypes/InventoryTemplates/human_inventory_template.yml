@@ -1,6 +1,16 @@
-﻿- type: inventoryTemplate
+- type: inventoryTemplate
   id: human
   slots:
+    - name: underwearb 
+      slotTexture: underwearb
+      slotFlags: UNDERWEARB
+      stripTime: 6
+      uiWindowPos: 4,2
+      strippingWindowPos: 0,4
+      displayName: Panties
+      whitelist:
+        tags:
+          - underwearb
     - name: shoes
       slotTexture: shoes
       slotFlags: FEET

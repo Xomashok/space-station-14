@@ -32,6 +32,8 @@
     id: ChefPDA
     ears: ClothingHeadsetService
     outerClothing: ClothingOuterApronChef
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   innerClothingSkirt: ClothingUniformJumpskirtChef
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

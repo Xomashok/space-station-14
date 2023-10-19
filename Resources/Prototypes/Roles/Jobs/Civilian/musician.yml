@@ -29,5 +29,7 @@
     shoes: ClothingShoesBootsLaceup
     id: MusicianPDA
     ears: ClothingHeadsetService
+    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
+  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
   satchel: ClothingBackpackSatchelMusicianFilled
   duffelbag: ClothingBackpackDuffelMusicianFilled
