@@ -5,8 +5,8 @@
       slotTexture: underwearb
       slotFlags: UNDERWEARB
       stripTime: 6
-      uiWindowPos: 4,2
-      strippingWindowPos: 0,4
+      uiWindowPos: 2,6
+      strippingWindowPos: 0,6
       displayName: Panties
       whitelist:
         tags:
