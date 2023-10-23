@@ -24,6 +24,7 @@
       - id: PlushieXeno
       - id: PlushieHampter
       - id: PlushieMoth
+      - id: RubberPig
       - id: Hamster
         orGroup: Hamster
       - id: PlushieXenoCat
@@ -272,6 +273,7 @@
       - id: ClothingShoesClownLarge
       - id: ClothingHeadHatMagician
       - id: BeachBall
+      - id: RubberPig
 
 - type: entity
   id: CrateFunBikeHornImplants
