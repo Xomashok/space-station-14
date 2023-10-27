@@ -53,7 +53,7 @@
   description: Ошейник и чулки в комплект не идут.
   components:
   - type: Sprite
-    sprite: IanStation/Clothing/Pants/programmer_pants_female.rsi
+    sprite: IanStation/Clothing/Pants/programmer_pant_male.rsi
 
 - type: entity
   parent: ClothingUnderwearBottomBase
@@ -70,7 +70,7 @@
   parent: ClothingUnderwearBottomBase
   id: ClothingUnderwearBottomBoxersWhite
   name: boxers
-  description: Стандартное нижнее белье Нанотрейзен для сотрудниц станции. Покрашен в белый цвет.
+  description: Стандартное нижнее белье Нанотрейзен для сотрудников станции. Покрашен в белый цвет.
   components:
   - type: Sprite
     sprite: IanStation/Clothing/Pants/box.rsi
