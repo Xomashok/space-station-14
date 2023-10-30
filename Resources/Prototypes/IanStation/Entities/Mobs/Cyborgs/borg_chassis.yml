@@ -33,3 +33,4 @@
     thresholds:
       0: Alive
       250: Dead
+  - type: ShowSecurityIcons
