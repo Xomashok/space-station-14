@@ -13,6 +13,3 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.98
     sprintModifier: 0.98
-  - type: Handcuff
-    cuffedRSI: IanStation/Clothing/Neck/Scarfs/collar.rsi
-    bodyIconState: body-overlay
