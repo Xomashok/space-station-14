@@ -32,8 +32,9 @@
     id: AtmosPDA
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
-    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
-  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpskirtAtmos
   satchel: ClothingBackpackSatchelAtmosphericsFilled
   duffelbag: ClothingBackpackDuffelAtmosphericsFilled

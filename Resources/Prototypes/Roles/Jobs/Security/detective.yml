@@ -43,8 +43,9 @@
     id: DetectivePDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltHolsterFilled
-    underwearb: ClothingUnderwearBottomBoxersWhite #Ian Station
-  underwearb: ClothingUnderwearBottomPantiesWhite #Ian Station
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpskirtDetective
   satchel: ClothingBackpackSatchelSecurityFilledDetective
   duffelbag: ClothingBackpackDuffelSecurityFilledDetective
