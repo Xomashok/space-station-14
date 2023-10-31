@@ -1,7 +1,9 @@
 - type: soundCollection
   id: LobbyMusic
   files:
-    - /Audio/IanStation/Lobby/Bloody_Storm.ogg
+    - /Audio/IanStation/Lobby/The_Stains_Of_Time__.ogg
+    - /Audio/IanStation/Lobby/Y2mate.mx-Hotline-Miami-2_-Wrong-Number-Soundtrack-Dust-_320-kbps_.ogg
+    - /Audio/IanStation/Lobby/Bloody_Storm.ogg #IanStation
     - /Audio/IanStation/Lobby/-_2021.ogg #IanSTation
     - /Audio/IanStation/Lobby/A_Brighter_Future_HOME_-_Resonance_but_the_beat_order_is_reversed_and_its_beats_4_2.ogg #IanStation
     - /Audio/IanStation/Lobby/OIIAIOIIIAI_spinning_cat_meme.ogg #IanStation
