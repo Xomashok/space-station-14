@@ -28,6 +28,9 @@ namespace Content.Shared.Roles
         // Может пора подписывать что это IanStation
         [DataField("underwearb")]
         private string _underwearb = string.Empty;
+
+        [DataField("underweart")]
+        private string _underweart = string.Empty;
         // Потом думаю можно
 
         [ViewVariables]
@@ -47,6 +50,8 @@ namespace Content.Shared.Roles
                 // Ian Station start
                 if (slot == "underwearb" && profile.Sex == Sex.Female && !string.IsNullOrEmpty(_underwearb))
                     return _underwearb;
+                if (slot == "underweart" && profile.Sex == Sex.Female && !string.IsNullOrEmpty(_underweart))
+                    return _underweart;
                 // Ian Station stop
             }
 

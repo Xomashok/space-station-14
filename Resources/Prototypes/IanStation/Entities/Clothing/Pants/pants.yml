@@ -91,5 +91,5 @@
   description: Ошейник и чулки в комплект не идут.
   components:
   - type: Sprite
-    sprite: IanStation/Clothing/Pants/programmer_pants_male.rsi
+    sprite: IanStation/Clothing/Pants/programmer_pant_male.rsi
 

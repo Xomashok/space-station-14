@@ -68,9 +68,6 @@
     ClothingHeadRastaHat: 2
     ClothingBeltStorageWaistbag: 3
     ClothingEyesGlasses: 6
-  contrabandInventory:
-    ClothingUniformJumpsuitTacticool: 1
-    ClothingUniformJumpskirtTacticool: 1
     ClothingUnderwearBottomPantiesWhite: 10 #IanStation
     ClothingUnderwearBottomBoxersWhite: 10 #IanStation
     ClothingUnderwearBottomPantiesPink: 5 #IanStation
@@ -78,3 +75,10 @@
     ClothingUnderwearBottomPantiesProgrammerMale: 5 #IanStation
     ClothingUnderwearBottomPantiesBeeFemale: 5 #IanStation
     ClothingUnderwearBottomPantiesBeeMale: 5 #IanStation
+    ClothingUnderwearTopWhite: 10 #IanStation
+    ClothingUnderwearTopBee: 5 #IanStation
+    ClothingUnderwearTopPink: 5 #IanStation
+    ClothingUnderwearTopProggmramer: 5 #IanStation
+  contrabandInventory:
+    ClothingUniformJumpsuitTacticool: 1
+    ClothingUniformJumpskirtTacticool: 1
