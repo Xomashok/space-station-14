@@ -39,7 +39,7 @@
     id: SecurityPDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58Nonlethal
+    pocket1: WeaponPistolG22
     underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
   underweart: ClothingUnderwearTopWhite # IanStation
   underwearb: ClothingUnderwearBottomPantiesWhite # IanStation

@@ -25,7 +25,7 @@
     id: ERTLeaderPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58Nonlethal
+    pocket1: WeaponPistolG22
     pocket2: FlashlightSeclite
     underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
   underweart: ClothingUnderwearTopWhite # IanStation
@@ -45,7 +45,7 @@
     id: ERTLeaderPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58Nonlethal
+    pocket1: WeaponPistolG22
     pocket2: FlashlightSeclite
     underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
   underweart: ClothingUnderwearTopWhite # IanStation
@@ -153,7 +153,7 @@
     id: ERTLeaderPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58Nonlethal
+    pocket1: WeaponPistolG22
     pocket2: FlashlightSeclite
     underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
   underweart: ClothingUnderwearTopWhite # IanStation
@@ -173,7 +173,7 @@
     id: ERTLeaderPDA
     ears: ClothingHeadsetAltCentCom
     belt: ClothingBeltSecurityFilled
-    pocket1: WeaponPistolMk58Nonlethal
+    pocket1: WeaponPistolG22
     pocket2: FlashlightSeclite
     underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
   underweart: ClothingUnderwearTopWhite # IanStation

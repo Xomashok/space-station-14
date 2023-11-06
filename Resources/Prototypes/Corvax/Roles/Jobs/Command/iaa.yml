@@ -42,6 +42,8 @@
     underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
   underweart: ClothingUnderwearTopWhite # IanStation
   underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
+  inhand:
+    - BriefcaseIAAFilled
   innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack
   satchel: ClothingBackpackSatchelIAAFilled
   duffelbag: ClothingBackpackDuffelIAAFilled

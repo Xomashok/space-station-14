@@ -28,7 +28,8 @@
       - id: Hamster
         orGroup: Hamster
       - id: PlushieXenoCat
-
+      - id: PlushiePenguin
+  
 - type: entity
   id: CrateFunInstrumentsVariety
   parent: CrateGenericSteel
@@ -307,7 +308,7 @@
       - id: TargetDarts
         amount: 1
       - id: BoxDarts
-        amount: 1
+        amount: 2
       - id: BoxDarts
         amount: 1
         prob: 0.05

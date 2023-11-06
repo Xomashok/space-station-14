@@ -37,7 +37,7 @@
         components:
         - IdCard
   - type: Item
-    size: 10
+    size: Small
   - type: ContainerContainer
     containers:
       PDA-id: !type:ContainerSlot {}
@@ -70,6 +70,7 @@
       - NotekeeperCartridge
       - BankCartridge
       - NewsReadCartridge
+      - GlimmerMonitorCartridge
     cartridgeSlot:
       priority: -1
       name: Cartridge
