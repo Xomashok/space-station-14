@@ -39,6 +39,8 @@
       Male: UnisexXcenoSmart
       Female: UnisexXcenoSmart
       Unsexed: UnisexXcenoSmart
+  - type: TypingIndicator
+    proto: alien
 
 - type: entity
   name: Urist McXcenoSmart
