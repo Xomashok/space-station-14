@@ -17,6 +17,7 @@ using Content.Shared.Resist;
 using Content.Shared.Storage;
 using Robust.Server.GameObjects;
 using Robust.Shared.Containers;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server.Backmen.Item.PseudoItem
 {
@@ -27,6 +28,8 @@ namespace Content.Server.Backmen.Item.PseudoItem
         [Dependency] private readonly DoAfterSystem _doAfter = default!;
         [Dependency] private readonly TransformSystem _transformSystem = default!;
         [Dependency] private readonly PopupSystem _popup = default!;
+        [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
+        [Dependency] private readonly EntityStorageSystem _entityStorage = default!;
 
         public override void Initialize()
         {
@@ -61,7 +64,7 @@ namespace Content.Server.Backmen.Item.PseudoItem
             if (component.Active)
                 return;
 
-            if (!CanInsertInto((uid, component), args.Target))
+            if (!TryComp<StorageComponent>(args.Target, out var storage))
                 return;
 
             if (Transform(args.Target).ParentUid == uid)
@@ -71,7 +74,7 @@ namespace Content.Server.Backmen.Item.PseudoItem
             {
                 Act = () =>
                 {
-                    TryInsert(args.Target, uid, uid, component);
+                    TryInsert(args.Target, uid, uid, component, storage);
                 },
                 Text = Loc.GetString("action-name-insert-self"),
                 Priority = 2
@@ -128,7 +131,12 @@ namespace Content.Server.Backmen.Item.PseudoItem
                 return false;
             }
 
-            return (int)pseudoItem.Comp.SizeInBackpack > storageComponent.MaxTotalWeight - _storageSystem.GetCumulativeItemSizes(storage, storageComponent);
+            if (!_prototypeManager.TryIndex(pseudoItem.Comp.SizeInBackpack, out var sizeInBackpack))
+            {
+                return false;
+            }
+
+            return sizeInBackpack.Weight >= storageComponent.MaxTotalWeight - _storageSystem.GetCumulativeItemSizes(storage, storageComponent);
         }
 
         private void OnEscape(EntityUid uid, PseudoItemComponent pseudoItem, EscapeInventoryEvent args)
@@ -151,18 +159,35 @@ namespace Content.Server.Backmen.Item.PseudoItem
 
             args.Handled = true;
 
-            var parent = _transformSystem.GetParentUid(uid);
-            if (!parent.IsValid())
+            if (args.Target.HasValue)
             {
-                ClearState(uid, pseudoItem);
-                return;
+                var parent = _transformSystem.GetParentUid(args.Target.Value);
+                if (!parent.IsValid())
+                {
+                    ClearState(uid, pseudoItem);
+                    return;
+                }
+
+
+
+                if (CanInsertInto((uid, pseudoItem), parent))
+                {
+                    if(!TryInsert(parent, uid, uid, pseudoItem))
+                        return;
+                }
+
+
+                if (TryComp<EntityStorageComponent>(parent, out var entityStorageComponent))
+                {
+                    ClearState(uid, pseudoItem);
+                    if (_entityStorage.CanInsert(uid, parent, entityStorageComponent))
+                    {
+                        _entityStorage.Insert(uid, parent, entityStorageComponent);
+                        return;
+                    }
+                }
             }
 
-            if (CanInsertInto((uid, pseudoItem), parent))
-            {
-                if(!TryInsert(parent, uid, uid, pseudoItem))
-                    return;
-            }
 
             ClearState(uid, pseudoItem);
             //_containerSystem.AttachParentToContainerOrGrid(Transform(uid));
@@ -204,7 +229,7 @@ namespace Content.Server.Backmen.Item.PseudoItem
             if (!Resolve(storageUid, ref storage))
                 return false;
 
-            if (CanInsertInto((toInsert, component), storageUid, storage))
+            if (!CanInsertInto((toInsert, component), storageUid, storage))
             {
                 if (user.HasValue)
                 {

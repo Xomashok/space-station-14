@@ -60,6 +60,7 @@
         sprite: Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
+      - map: ["underweart"]
       - map: ["underwearb"]
       - map: [ "id" ]
       - map: [ "gloves" ]
@@ -68,6 +69,7 @@
       - map: [ "outerClothing" ]
       - map: [ "eyes" ]
       - map: [ "belt" ]
+      - map: [ "id" ]
       - map: [ "neck" ]
       - map: [ "back" ]
       - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
