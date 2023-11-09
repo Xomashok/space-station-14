@@ -19,6 +19,7 @@
   sprites:
     Head: MobXcenoSmartHead
     Chest: MobXcenoSmartTorso 
+    Tail: MobHumanoidAnyMarking
     LArm: MobXcenoSmartLArm
     RArm: MobXcenoSmartRArm
     LHand: MobXcenoSmartLHand
@@ -38,8 +39,9 @@
       points: 0
       required: false
     Tail: 
-      points: 0
-      required: false
+      points: 1
+      required: true
+      defaultMarkings: [ BaseXcenoTail ]
     HeadTop: 
       points: 0
       required: false

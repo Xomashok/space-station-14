@@ -4,11 +4,18 @@
   parent: Soap
   description: Более скользкое и опасное мыло, смотрите не подскальзнитесь.
   components:
-  - type: Sprite
-    sprite: IanStation/Objects/Specific/Janitorial/soap.rsi
-    state: lambda
-  - type: Slippery
-    paralyzeTime: 60
-    launchForwardsMultiplier: 1
-  - type: Item
-    heldPrefix: lambda
+   - type: Sprite
+     layers:
+     - state: lambda-4
+       map: ["enum.SolutionContainerLayers.Fill"]
+   - type: SolutionContainerVisuals
+     fillBaseName: lambda-
+   - type: Slippery
+     paralyzeTime: 60
+     launchForwardsMultiplier: 1
+   - type: Item
+     heldPrefix: lambda
+   - type: FlavorProfile
+     flavors:
+      - clean
+      - punishment
