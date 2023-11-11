@@ -2,7 +2,7 @@
   id: CorvaxGate
   mapName: 'Gate Station'
   mapPath: /Maps/corvax_gate.yml
-  minPlayers: 55
+  minPlayers: 0
   stations:
     Gate:
       stationProto: StandardNanotrasenStation
