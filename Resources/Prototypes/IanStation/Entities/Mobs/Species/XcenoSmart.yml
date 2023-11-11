@@ -41,6 +41,15 @@
       Unsexed: UnisexXcenoSmart
   - type: TypingIndicator
     proto: alien
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcPunch
+    damage:
+      types:
+        Piercing: 5
+  - type: LizardAccent
 
 - type: entity
   name: Urist McXcenoSmart
