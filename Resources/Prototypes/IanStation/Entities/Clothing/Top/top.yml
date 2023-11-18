@@ -65,3 +65,21 @@
   - type: Sprite
     sprite: IanStation/Clothing/Top/white_top.rsi
 
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopRed
+  name: Красный лифчик
+  description: Красный кружевной лифчик.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Top/red_top.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBlack
+  name: Чёрный лифчик
+  description: Как красный лифчик, только чёрный.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Top/black_top.rsi
+

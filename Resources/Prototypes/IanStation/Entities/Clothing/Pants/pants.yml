@@ -64,6 +64,24 @@
   - type: Sprite
     sprite: IanStation/Clothing/Pants/bee_pants_female.rsi
 
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesRedFemale
+  name: Красные женские трусы
+  description: Прикольно натянуть на лампу.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/red_pants_female.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesBlackFemale
+  name: Чёрные женские трусы
+  description: Кружевные трусы, прям как в тех фильмах.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/black_pants_female.rsi
+
 #male
 
 - type: entity
@@ -92,4 +110,22 @@
   components:
   - type: Sprite
     sprite: IanStation/Clothing/Pants/programmer_pant_male.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesRedMale
+  name: Красные мужские трусы
+  description: Как боксерские, только красивее.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/red_pants_male.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesBlackMale
+  name: Чёрные мужские трусы
+  description: Строго и сердито.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/black_pants_male.rsi
 

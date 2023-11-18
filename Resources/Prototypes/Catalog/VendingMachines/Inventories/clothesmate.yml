@@ -75,10 +75,16 @@
     ClothingUnderwearBottomPantiesProgrammerMale: 5 #IanStation
     ClothingUnderwearBottomPantiesBeeFemale: 5 #IanStation
     ClothingUnderwearBottomPantiesBeeMale: 5 #IanStation
+    ClothingUnderwearBottomPantiesRedFemale: 5 #IanStation
+    ClothingUnderwearBottomPantiesRedMale: 5 #IanStation
+    ClothingUnderwearBottomPantiesBlackFemale: 5 #IanStation
+    ClothingUnderwearBottomPantiesBlackMale: 5 #IanStation
     ClothingUnderwearTopWhite: 10 #IanStation
     ClothingUnderwearTopBee: 5 #IanStation
     ClothingUnderwearTopPink: 5 #IanStation
     ClothingUnderwearTopProggmramer: 5 #IanStation
+    ClothingUnderwearTopRed: 5 #IanStation
+    ClothingUnderwearTopBlack: 5 #IanStation
   contrabandInventory:
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1
