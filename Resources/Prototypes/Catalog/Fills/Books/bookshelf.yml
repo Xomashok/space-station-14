@@ -95,3 +95,5 @@
         prob: 0.1
       - id: BookBusido # Corvax-Books
         prob: 0.1
+      - id: BookSiiverSoul # IanStation
+        prob: 0.1
