@@ -19,6 +19,7 @@
     - Maintenance
     - Command
     - External
+    - Lawyer
   #start-backmen: currency
   minBankBalance: 800
   maxBankBalance: 1200
