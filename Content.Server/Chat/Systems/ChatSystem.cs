@@ -215,6 +215,8 @@ public sealed partial class ChatSystem : SharedChatSystem
         message = message.Replace("цербер", "я гей");
         message = message.Replace("ЦЕРБЕРУ", "ПИДОРАСАМ");
 
+        ignoreActionBlocker = CheckIgnoreSpeechBlocker(source, ignoreActionBlocker);
+
         // this method is a disaster
         // every second i have to spend working with this code is fucking agony
         // scientists have to wonder how any of this was merged
@@ -258,7 +260,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         {
             if (TryProccessRadioMessage(source, message, out var modMessage, out var channel))
             {
-                SendEntityWhisper(source, modMessage, range, channel, nameOverride, ignoreActionBlocker);
+                SendEntityWhisper(source, modMessage, range, channel, nameOverride, hideLog, ignoreActionBlocker);
                 return;
             }
         }
@@ -771,6 +773,17 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         return ev.Message;
     }
+ 
+    public bool CheckIgnoreSpeechBlocker(EntityUid sender, bool ignoreBlocker)
+    {
+        if (ignoreBlocker)
+            return ignoreBlocker;
+
+        var ev = new CheckIgnoreSpeechBlockerEvent(sender, ignoreBlocker);
+        RaiseLocalEvent(sender, ev, true);
+
+        return ev.IgnoreBlocker;
+    }
 
     private IEnumerable<INetChannel> GetDeadChatClients()
     {
@@ -906,6 +919,18 @@ public sealed class TransformSpeechEvent : EntityEventArgs
     {
         Sender = sender;
         Message = message;
+    }
+}
+
+public sealed class CheckIgnoreSpeechBlockerEvent : EntityEventArgs
+{
+    public EntityUid Sender;
+    public bool IgnoreBlocker;
+
+    public CheckIgnoreSpeechBlockerEvent(EntityUid sender, bool ignoreBlocker)
+    {
+        Sender = sender;
+        IgnoreBlocker = ignoreBlocker;
     }
 }
 
