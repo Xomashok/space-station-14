@@ -1,12 +1,16 @@
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using Content.Server.Speech.EntitySystems;
-using Content.Server.Speech.Components;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
+using Content.Server.Backmen.Chat;
 using Content.Server.Chat.Managers;
 using Content.Server.GameTicking;
+using Content.Server.Players;
+using Content.Server.Popups;
+using Content.Server.SS220.Chat.Systems;
+using Content.Server.Speech.Components;
+using Content.Server.Speech.EntitySystems;
 using Content.Server.Station.Components;
 using Content.Server.Station.Systems;
 using Content.Shared.ActionBlocker;
@@ -20,7 +24,6 @@ using Content.Shared.Interaction;
 using Content.Shared.Mobs.Systems;
 using Content.Shared.Players;
 using Content.Shared.Radio;
-using Robust.Server.GameObjects;
 using Robust.Server.Player;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
@@ -32,11 +35,6 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
-using Content.Server.Backmen.Chat;
-using Content.Server.Popups;
-using Content.Server.SS220.Chat.Systems;
-using Content.Shared.Radio;
-using Robust.Server.GameObjects;
 
 namespace Content.Server.Chat.Systems;
 
@@ -202,16 +200,6 @@ public sealed partial class ChatSystem : SharedChatSystem
             return;
         }
 
-        if (player != null && RateLimiter.IsBeingRateLimited(player.UserId.UserId.ToString()))
-        {
-            var systemTextNotify = Loc.GetString("chat-manager-rate-limit");
-            _chatManager.DispatchServerMessage(player, systemTextNotify, true);
-            return;
-        }
-
-        message = message.Replace("цербер", "я гей");
-        message = message.Replace("ЦЕРБЕРУ", "ПИДОРАСАМ");
-
         if (!CanSendInGame(message, shell, player))
             return;
 
@@ -295,8 +283,6 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         if (player != null && !_chatManager.HandleRateLimit(player))
             return;
-
-
         // It doesn't make any sense for a non-player to send in-game OOC messages, whereas non-players may be sending
         // in-game IC messages.
         if (player?.AttachedEntity is not { Valid: true } entity || source != entity)

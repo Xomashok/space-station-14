@@ -198,18 +198,6 @@ namespace Content.Server.Chat.Managers
                 return;
             }
 
-            if (RateLimiter.IsBeingRateLimited(player.UserId.UserId.ToString()))
-            {
-                var systemTextNotify = Loc.GetString("chat-manager-rate-limit");
-                DispatchServerMessage(player, systemTextNotify, true);
-                return;
-            }
-
-            // I KNOW THERES LIKE 5438790 DIFFERENT POSSIBILITIES TO AVOID THIS
-            // It's just an easter egg, give me a break
-            message = message.Replace("цербер", "я гей");
-            message = message.Replace("ЦЕРБЕРУ", "ПИДОРАСАМ");
-
             switch (type)
             {
                 case OOCChatType.OOC:

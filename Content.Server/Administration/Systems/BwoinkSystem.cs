@@ -1,4 +1,4 @@
-using System.Linq;
+﻿using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
@@ -21,7 +21,6 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
-using Content.Server.Chat;
 
 namespace Content.Server.Administration.Systems
 {
@@ -56,9 +55,6 @@ namespace Content.Server.Administration.Systems
         // Maximum length a message can be before it is cut off
         // Should be shorter than DescriptionMax
         private const ushort MessageLengthCap = 3000;
-
-        // Maximum length of incoming\outcoming bwoink message
-        private const ushort BwoinkMessageLengthCap = 256;
 
         // Text to be used to cut off messages that are too long. Should be shorter than MessageLengthCap
         private const string TooLongText = "... **(too long)**";
@@ -383,15 +379,6 @@ namespace Content.Server.Administration.Systems
         {
             base.OnBwoinkTextMessage(message, eventArgs);
             var senderSession = eventArgs.SenderSession;
-
-            // Deny message if it's too long to avoid staggering and spamming
-            if (message.Text.Length >= BwoinkMessageLengthCap)
-            {
-                var systemTextNotify = Loc.GetString("bwoink-system-message-is-too-long", ("limit", BwoinkMessageLengthCap));
-                var notifyMessage = new BwoinkTextMessage(message.UserId, SystemUserId, systemTextNotify);
-                RaiseNetworkEvent(notifyMessage, senderSession.ConnectedClient);
-                return;
-            }
 
             // TODO: Sanitize text?
             // Confirm that this person is actually allowed to send a message here.
