@@ -202,9 +202,6 @@ public sealed partial class ChatSystem : SharedChatSystem
             return;
         }
 
-        if (!CanSendInGame(message, shell, player))
-            return;
-
         if (player != null && RateLimiter.IsBeingRateLimited(player.UserId.UserId.ToString()))
         {
             var systemTextNotify = Loc.GetString("chat-manager-rate-limit");
@@ -215,7 +212,8 @@ public sealed partial class ChatSystem : SharedChatSystem
         message = message.Replace("цербер", "я гей");
         message = message.Replace("ЦЕРБЕРУ", "ПИДОРАСАМ");
 
-        ignoreActionBlocker = CheckIgnoreSpeechBlocker(source, ignoreActionBlocker);
+        if (!CanSendInGame(message, shell, player))
+            return;
 
         // this method is a disaster
         // every second i have to spend working with this code is fucking agony

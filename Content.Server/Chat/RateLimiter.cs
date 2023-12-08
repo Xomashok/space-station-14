@@ -10,7 +10,7 @@ namespace Content.Server.Chat
     {
         // TODO: Move this to CCVars.cs
         // Time in milliseconds at which rate user is being limited
-        public static readonly int RateDelta = 2000;
+        public static readonly int RateDelta = 1000;
 
         private struct LimitRecord
         {

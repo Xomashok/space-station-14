@@ -405,14 +405,6 @@ namespace Content.Server.Administration.Systems
                 return;
             }
 
-            if (RateLimiter.IsBeingRateLimited(senderSession.UserId.UserId.ToString()))
-            {
-                var systemTextNotify = Loc.GetString("bwoink-system-message-rate-limit");
-                var notifyMessage = new BwoinkTextMessage(message.UserId, SystemUserId, systemTextNotify);
-                RaiseNetworkEvent(notifyMessage, senderSession.ConnectedClient);
-                return;
-            }
-
             var escapedText = FormattedMessage.EscapeText(message.Text);
 
             var bwoinkText = senderAdmin switch
