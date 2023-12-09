@@ -8,8 +8,8 @@
     sprite: IanStation/Clothing/Neck/Scarfs/collar.rsi
   - type: Clothing
     sprite: IanStation/Clothing/Neck/Scarfs/collar.rsi
-  - type: Item
-    size: 2
   - type: ClothingSpeedModifier
     walkModifier: 0.98
     sprintModifier: 0.98
+  - type: Item
+    size: Tiny
