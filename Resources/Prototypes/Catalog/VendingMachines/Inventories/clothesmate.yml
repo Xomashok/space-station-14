@@ -87,6 +87,9 @@
     ClothingUnderwearTopProggmramer: 5 #IanStation
     ClothingUnderwearTopRed: 5 #IanStation
     ClothingUnderwearTopBlack: 5 #IanStation
+    ClothingUniformJumpsuitmaidblack: 3 #IanStation
+    ClothingUniformJumpsuitmaidblue: 3 #IanStation
+    ClothingUniformJumpsuitmaidpink: 3 #IanStation
   contrabandInventory:
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1
