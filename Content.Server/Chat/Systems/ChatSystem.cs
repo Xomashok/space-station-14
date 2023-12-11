@@ -336,7 +336,7 @@ public sealed partial class ChatSystem : SharedChatSystem
                 announcementSound = new SoundPathSpecifier(CentComAnnouncementSound); // Corvax-Announcements: Support custom alert sound from admin panel
             announcementSound ??= new SoundPathSpecifier(DefaultAnnouncementSound);
             var announcementFilename = announcementSound.GetSound();
-            var announcementEv = new AnnouncementSpokeEvent(Filter.Broadcast(), announcementFilename, AudioParams.Default.WithVolume(-2f), message);
+            var announcementEv = new AnnouncementSpokeEvent(Filter.Broadcast(), announcementFilename, announcementSound?.Params ?? AudioParams.Default.WithVolume(-2f), message);
             RaiseLocalEvent(announcementEv);
         }
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Global station announcement from {sender}: {message}");
@@ -757,7 +757,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         return ev.Message;
     }
- 
+
     public bool CheckIgnoreSpeechBlocker(EntityUid sender, bool ignoreBlocker)
     {
         if (ignoreBlocker)
