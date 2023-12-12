@@ -387,6 +387,7 @@
       - TelecomServerCircuitboard
       - MassMediaCircuitboard
       - ShipyardCircuitboard # backmen
+      - MachineBluespaceHarvesterCircuitboard
   - type: MaterialStorage
     whitelist:
       tags:
