@@ -90,6 +90,8 @@
     ClothingUniformJumpsuitmaidblack: 3 #IanStation
     ClothingUniformJumpsuitmaidblue: 3 #IanStation
     ClothingUniformJumpsuitmaidpink: 3 #IanStation
+    ClothingEyesGlassesCosmeticSunglasses: 6
+    ClothingHandsGlovesColorBlack: 4
   contrabandInventory:
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1
