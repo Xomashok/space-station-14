@@ -20,10 +20,10 @@ SERVER_FILES = [
 ]
 
 VERSION = os.environ['GITHUB_SHA']
-FORK_ID = "backmen"
-BUILD_URL = f"https://cdn.backmen.ru/builds/{{FORK_VERSION}}/{FILE}"
-MANIFEST_URL = f"https://cdn.backmen.ru/cdn/version/{{FORK_VERSION}}/manifest"
-MANIFEST_DOWNLOAD_URL = f"https://cdn.backmen.ru/cdn/version/{{FORK_VERSION}}/download"
+FORK_ID = "ian"
+BUILD_URL = f"https://92.53.99.234/builds/{{FORK_VERSION}}/{FILE}"
+MANIFEST_URL = f"https://92.53.99.234/cdn/version/{{FORK_VERSION}}/manifest"
+MANIFEST_DOWNLOAD_URL = f"https://92.53.99.234/cdn/version/{{FORK_VERSION}}/download"
 
 def main() -> None:
     client_file = os.path.join("release", FILE)
