@@ -70,3 +70,21 @@
       groups:
         - AllAccess
         - CentCom
+
+- type: startingGear
+  id: DSCCGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomFormal
+    shoes: ClothingShoesBootsJack
+    head: ClothingHeadHatBeretCentcomNaval
+    eyes: ClothingEyesGlassesSunglasses
+    gloves: ClothingHandsGlovesCentcomNaval
+    outerClothing: ClothingOuterArmorBasic
+    neck: ClothingNeckCloakCentcomAdmiral
+    id: CCAdmiralPDA
+    ears: ClothingHeadsetAltCentCom
+    pocket1: RubberStampCentcom
+    belt: ClothingBeltSheathFilled
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
