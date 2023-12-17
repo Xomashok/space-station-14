@@ -943,6 +943,9 @@
   id: ShellShotgun
 
 - type: Tag
+  id: PelletShotgunFlare
+
+- type: Tag
   id: Shiv
 
 - type: Tag
@@ -1126,6 +1129,9 @@
   id: Write
 
 - type: Tag
+  id: WriteIgnoreStamps
+
+- type: Tag
   id: RifleStock
 
 - type: Tag
@@ -1136,3 +1142,6 @@
 
 - type: Tag
   id:  boots
+
+- type: Tag
+  id: CleansForensics
