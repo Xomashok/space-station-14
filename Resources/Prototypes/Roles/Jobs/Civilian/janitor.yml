@@ -29,6 +29,7 @@
     shoes: ClothingShoesGaloshes
     head: ClothingHeadHatPurplesoft
     id: JanitorPDA
+    gloves: ClothingHandsGlovesJanitor
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
     underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
@@ -44,6 +45,7 @@
     jumpsuit: ClothingUniformJumpskirtJanimaid
     back: ClothingBackpackFilled
     id: JanitorPDA
+    gloves: ClothingHandsGlovesJanitor
     head: ClothingHeadHatCatEars
     ears: ClothingHeadsetService
     belt: ClothingBeltJanitorFilled
