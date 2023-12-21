@@ -131,12 +131,13 @@
             "name": "lambda-1"
         },
         {
-            "name": "lambda-4"
-        },
-        {
             "name": "lambda-2"
         },
         {
             "name": "lambda-3"
+        },
+        {
+            "name": "lambda-4"
         }
     ]
+  }
