@@ -22,7 +22,7 @@
       department: CentCom
       time: 21600
   access:
-    - CCGeneral
+    - CentralCommand
     - CCCargo
   accessGroups:
     - AllAccess
@@ -94,6 +94,6 @@
     - type: Access
       tags:
         - CCCargo
-        - CCGeneral
+        - CentralCommand
       groups:
         - AllAccess
