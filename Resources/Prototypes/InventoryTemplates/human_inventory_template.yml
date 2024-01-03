@@ -5,7 +5,7 @@
       slotTexture: underweart
       slotFlags: UNDERWEART
       stripTime: 6
-      uiWindowPos: 2,6
+      uiWindowPos: 2,0
       strippingWindowPos: 1,6
       displayName: Top
       whitelist:
@@ -15,7 +15,7 @@
       slotTexture: underwearb
       slotFlags: UNDERWEARB
       stripTime: 6
-      uiWindowPos: 2,6
+      uiWindowPos: 2,0
       strippingWindowPos: 0,6
       displayName: Panties
       whitelist:
