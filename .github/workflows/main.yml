@@ -18,9 +18,9 @@ jobs:
     - name: check if need to update
       uses: appleboy/ssh-action@master
       with:
-        host: 92.53.99.234
-        username: root
-        key: ${{ secrets.IAN_BUILDS_PUSH_KEY }}
+        host: cdn.backmen.ru
+        username: buildbot
+        key: ${{ secrets.BACKMEN_BUILDS_PUSH_KEY }}
         script: |
           if [ -d "/opt/builds/${{ github.sha }}" ]
           then
@@ -67,9 +67,9 @@ jobs:
     - name: Upload files to backmen
       uses: appleboy/scp-action@master
       with:
-        host: 92.53.99.234
-        username: root
-        key: ${{ secrets.IAN_BUILDS_PUSH_KEY }}
+        host: cdn.backmen.ru
+        username: buildbot
+        key: ${{ secrets.BACKMEN_BUILDS_PUSH_KEY }}
         source: "release/${{ github.sha }}"
         target: "/opt/builds/"
         strip_components: 1
@@ -78,15 +78,15 @@ jobs:
     - name: Update cdn
       uses: appleboy/ssh-action@master
       with:
-        host: 92.53.99.234
-        username: root
-        key: ${{ secrets.IAN_BUILDS_PUSH_KEY }}
+        host: cdn.backmen.ru
+        username: buildbot
+        key: ${{ secrets.BACKMEN_BUILDS_PUSH_KEY }}
         script: "curl -X POST -d \"\" -H 'Authorization: Bearer ${{ secrets.CDN_TOKEN }}' http://localhost:5001/control/update"
 
     - name: Update manifest JSON
       uses: appleboy/ssh-action@master
       with:
-        host: 92.53.99.234
-        username: root
-        key: ${{ secrets.IAN_BUILDS_PUSH_KEY }}
+        host: cdn.backmen.ru
+        username: buildbot
+        key: ${{ secrets.BACKMEN_BUILDS_PUSH_KEY }}
         script: "python3 /opt/push.py"
