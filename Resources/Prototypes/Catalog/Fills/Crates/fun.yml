@@ -28,6 +28,7 @@
       - id: Hamster
         orGroup: Hamster
       - id: PlushieXenoCat
+      - id: PlushieArachind
       - id: PlushiePenguin
   
 - type: entity
