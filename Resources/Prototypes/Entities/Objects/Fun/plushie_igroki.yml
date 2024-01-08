@@ -1,0 +1,20 @@
+- type: entity
+  parent: BasePlushie
+  id: Plushie_abemavshik
+  name: Плюшевый Эрих
+  description: Добрый мим с ушками зайчика
+  components:
+  - type: Sprite
+    state: plushie_abemavshik
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Voice/plushie_igroki/Among.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Voice/plushie_igroki/Among.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Voice/plushie_igroki/Among.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/plushie_igroki/Among.ogg
