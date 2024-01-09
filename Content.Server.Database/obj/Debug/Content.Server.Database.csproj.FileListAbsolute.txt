@@ -1,0 +1,16 @@
+c:\Xeno Station\space-station-14\bin\Content.Server.Database\Content.Server.Database.deps.json
+c:\Xeno Station\space-station-14\bin\Content.Server.Database\Content.Server.Database.runtimeconfig.json
+c:\Xeno Station\space-station-14\bin\Content.Server.Database\Content.Server.Database.dll
+c:\Xeno Station\space-station-14\bin\Content.Server.Database\Content.Server.Database.pdb
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.csproj.AssemblyReference.cache
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.GeneratedMSBuildEditorConfig.editorconfig
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.AssemblyInfoInputs.cache
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.AssemblyInfo.cs
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.csproj.CoreCompileInputs.cache
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.sourcelink.json
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.csproj.CopyComplete
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.dll
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\refint\Content.Server.Database.dll
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.pdb
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\Content.Server.Database.genruntimeconfig.cache
+c:\Xeno Station\space-station-14\Content.Server.Database\obj\Debug\ref\Content.Server.Database.dll
