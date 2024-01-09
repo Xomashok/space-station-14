@@ -1,30 +1,30 @@
 #Syndicate Contractor Hardsuit
-type: entity
-parent: ClothingOuterHardsuitBase
-id: ClothingOuterHardsuitContractor
-name: Скафандр контрактора
-description: Уникальный риг в черно-оранжевой расцветке.
-components:
-type: Sprite
-sprite: Clothing/OuterClothing/Hardsuits/contractor.rsi
-type: Clothing
-sprite: Clothing/OuterClothing/Hardsuits/contractor.rsi
-type: PressureProtection
-highPressureMultiplier: 0.02
-lowPressureMultiplier: 1000
-type: TemperatureProtection
-coefficient: 0.001
-type: ExplosionResistance
-damageCoefficient: 0.3
-type: Armor
-modifiers:
-  coefficients:
-    Blunt: 0.6
-    Slash: 0.6
-    Piercing: 0.5
-    Heat: 0.5
-    Radiation: 0
-    Caustic: 0.65
-type: ClothingSpeedModifier
-type: ToggleableClothing
-clothingPrototype: ClothingHeadHelmetHardsuitContractor
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: ClothingOuterHardsuitContractor
+  name: Скафандр контрактора
+  description: Уникальный риг в черно-оранжевой расцветке.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/Hardsuits/contractor.rsi
+  - type: Clothing
+    sprite: Clothing/OuterClothing/Hardsuits/contractor.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.5
+        Heat: 0.5
+        Radiation: 0
+        Caustic: 0.65
+  - type: ClothingSpeedModifier
+  - type: ToggleableClothing
+      clothingPrototype: ClothingHeadHelmetHardsuitContractor
