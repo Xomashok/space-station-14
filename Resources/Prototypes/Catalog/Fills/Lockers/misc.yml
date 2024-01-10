@@ -108,6 +108,8 @@
   components:
     - type: StorageFill
       contents:
+        - id: DrinkCondensedmilkCan # backmen
+          prob: 0.2
         - id: Eftpos # backmen
           prob: 0.2
         - id: Lantern
@@ -205,6 +207,8 @@
   components:
   - type: StorageFill
     contents:
+        - id: DrinkCondensedmilkCan # backmen
+          prob: 0.2
         - id: Eftpos # backmen
           prob: 0.2
         - id: Lantern
