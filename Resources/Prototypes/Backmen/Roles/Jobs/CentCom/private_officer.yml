@@ -24,8 +24,13 @@
   access:
     - CentralCommand
     - CCSecurity
-  accessGroups:
-    - AllAccess
+    - Security
+    - Brig
+    - Maintenance
+    - Service
+    - External
+    - Armory
+    - Detective
   special:
     - !type:AddImplantSpecial
       implants: [ MindShieldImplant ]
@@ -94,5 +99,10 @@
       tags:
         - CCSecurity
         - CentralCommand
-      groups:
-        - AllAccess
+        - Security
+        - Brig
+        - Maintenance
+        - Service
+        - External
+        - Armory
+        - Detective
