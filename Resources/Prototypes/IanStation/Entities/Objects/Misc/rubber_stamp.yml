@@ -1,0 +1,12 @@
+- type: entity
+  name: печать Нанотрейзен
+  parent: RubberStampBase
+  id: RubberStampNanotrasen
+  suffix: НЕ МАППИТЬ
+  components:
+  - type: Stamp
+    stampedName: Нанотрейзен
+    stampedColor: "#3681bb"
+    stampState: "paper_stamp-hop"
+  - type: Sprite
+    state: stamp-centcom
