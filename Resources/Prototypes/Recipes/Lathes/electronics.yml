@@ -905,7 +905,7 @@
     Glass: 900
     Gold: 300     
     Silver: 300
-   Gold: 100
+    Gold: 100
 
 - type: latheRecipe
   id: PowerCageRechargerCircuitboard
