@@ -258,6 +258,8 @@
     idleState: icon
     runningState: building
     dynamicRecipes:
+      - ClothingOuterHardsuitEVA #XenoStation
+      - ClothingHeadHelmetEVALarge #XenoStation
       - PowerDrill
       - MiningDrill
       - AnomalyScanner
@@ -663,6 +665,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - ClothingMaskBreathMedicalSecurity #Xeno_Station
       - ClothingEyesHudSecurity
       - Flash
       - Handcuffs
@@ -822,6 +825,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - ClothingMaskBreathMedicalSecurity #xeno_station
       - Brutepack
       - Ointment
       - Gauze

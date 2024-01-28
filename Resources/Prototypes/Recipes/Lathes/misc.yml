@@ -7,6 +7,23 @@
     Steel: 50
     Glass: 50
 
+
+- type: latheRecipe  #Xeno_Station
+  id: ClothingHeadHelmetEVALarge
+  result: ClothingHeadHelmetEVALarge
+  completetime: 10
+  materials:
+    Steel: 500
+    Glass: 500
+
+- type: latheRecipe  #Xeno_Station
+  id: ClothingOuterHardsuitEVA
+  result: ClothingOuterHardsuitEVA
+  completetime: 20
+  materials:
+    Steel: 1000
+    Glass: 1000
+
 - type: latheRecipe
   id: SodiumLightTube
   result: SodiumLightTube
