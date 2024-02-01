@@ -38,6 +38,7 @@
             Slash: 15
             Heat: 15
             Structural: 20
+            Brainwashed: 2.5
   - type: Sprite
     sprite: Objects/Weapons/Melee/e_sword.rsi
     layers:
@@ -106,6 +107,7 @@
         types:
             Slash: 10
             Heat: 10
+            Brainwashed: 2.5
     deactivatedSecret: true
   - type: ItemToggleActiveSound
     activeSound:
@@ -188,6 +190,7 @@
             Slash: 12
             Heat: 12
             Structural: 10
+            Brainwashed: 2.5
     deactivatedSecret: true
   - type: ItemToggleDisarmMalus
     activatedDisarmMalus: 0.6
@@ -240,6 +243,7 @@
             Slash: 12
             Heat: 12
             Structural: 15
+            Brainwashed: 2.5
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/Weapons/ebladehum.ogg

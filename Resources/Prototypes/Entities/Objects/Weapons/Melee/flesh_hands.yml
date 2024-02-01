@@ -23,6 +23,7 @@
       damage:
         types:
           Slash: 15
+          Brainwashed: 5
     - type: ToolForcePowered
     - type: MultipleTool
       statusShowBehavior: true
@@ -57,6 +58,7 @@
         types:
           Blunt: 25
           Structural: 60
+          Brainwashed: 5
     - type: Item
       size: Ginormous
 
@@ -76,6 +78,7 @@
       damage:
         types:
           Slash: 30
+          Brainwashed: 5
     - type: Item
       size: Huge
       sprite: Objects/Weapons/Melee/flesh_blade.rsi

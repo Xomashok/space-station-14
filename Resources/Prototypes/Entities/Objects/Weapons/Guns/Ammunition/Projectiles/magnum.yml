@@ -8,7 +8,7 @@
     damage:
       types:
         Piercing: 35
-
+        Brainwashed: 0.5
 - type: entity
   id: BulletMagnumPractice
   name: bullet (.45 magnum practice)
@@ -19,7 +19,7 @@
     damage:
       types:
         Blunt: 1
-
+        Brainwashed: 0.3
 - type: entity
   id: BulletMagnumRubber
   name: bullet (.45 magnum rubber)
@@ -30,6 +30,7 @@
     damage:
       types:
         Blunt: 3
+        Brainwashed: 0.3
   - type: StaminaDamageOnCollide
     damage: 35 # 3 hits to stun cuz revolver
 
@@ -44,7 +45,7 @@
       types:
         Blunt: 3
         Heat: 32
-        
+        Brainwashed: 0.3
 - type: entity
   id: BulletMagnumAP
   name: bullet (.45 magnum armor-piercing)
@@ -55,6 +56,7 @@
     damage:
       types:
         Piercing: 26 # 20% decrease
+        Brainwashed: 0.3
     ignoreResistances: true
 
 - type: entity
@@ -68,3 +70,4 @@
       types:
         Radiation: 15
         Piercing: 20
+        Brainwashed: 0.3
