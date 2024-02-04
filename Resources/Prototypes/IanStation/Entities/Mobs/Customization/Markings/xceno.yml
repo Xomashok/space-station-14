@@ -1,0 +1,9 @@
+- type: marking
+  id: BaseXcenoTail
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: [XcenoSmart]
+  sprites:
+  - sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: tail
+

@@ -1,4 +1,4 @@
-﻿- type: job
+- type: job
   id: Prisoner
   name: job-name-prisoner
   description: job-description-prisoner
@@ -23,4 +23,7 @@
     shoes: ClothingShoesColorBlack
     id: PrisonerPDA
     ears: ClothingHeadsetGrey
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpsuitPrisoner

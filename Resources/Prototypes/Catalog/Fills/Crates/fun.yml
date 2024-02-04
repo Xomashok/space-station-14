@@ -27,9 +27,12 @@
       - id: PlushieHampter
       - id: PlushieMoth
       - id: RubberPig
+      - id: Hamster
+        orGroup: Hamster
+      - id: PlushieXenoCat
       - id: PlushieArachind
       - id: PlushiePenguin
-
+  
 - type: entity
   id: CrateFunLizardPlushieBulk
   parent: CrateGenericSteel
@@ -304,6 +307,24 @@
       - id: BeachBall
       - id: RubberPig
       - id: ClothingShoesSkates
+      - id: Hamster
+      - id: HamsterBar
+      - id: HamsterBotan
+      - id: HamsterCap
+      - id: HamsterCargo
+      - id: HamsterCentCom
+      - id: HamsterClean
+      - id: HamsterClown
+      - id: HamsterDark
+      - id: HamsterDeadSkuad
+      - id: HamsterEng
+      - id: HamsterGold
+      - id: HamsterMed
+      - id: HamsterNuke
+      - id: HamsterRRS
+      - id: HamsterSB
+      - id: HamsterTF
+      - id: HamsterVarden
 
 - type: entity
   id: CrateFunBikeHornImplants
@@ -345,4 +366,3 @@
       - id: BoxDarts
         amount: 1
         prob: 0.05
-

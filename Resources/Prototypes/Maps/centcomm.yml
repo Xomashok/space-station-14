@@ -21,7 +21,7 @@
             BKCCCargo: [ 1, 2]
             BKCCSecOfficer: [ 2, 3]
             BKCCAssistant: [ 2, 4]
-            BKCCAdmiral: [ 0, 0]
+            BKCCAdmiral: [ 1, 1]
 
 - type: gameMap
   id: CentCommv2
@@ -46,7 +46,7 @@
           BKCCCargo: [ 1, 2]
           BKCCSecOfficer: [ 2, 3]
           BKCCAssistant: [ 2, 4]
-          BKCCAdmiral: [ 0, 0]
+          BKCCAdmiral: [ 1, 1]
 
 - type: gameMap
   id: CentCommv3
@@ -71,4 +71,4 @@
           BKCCCargo: [ 1, 2]
           BKCCSecOfficer: [ 2, 3]
           BKCCAssistant: [ 2, 4]
-          BKCCAdmiral: [ 0, 0]
+          BKCCAdmiral: [ 1, 1]

@@ -75,6 +75,27 @@
     ClothingHeadRastaHat: 2
     ClothingBeltStorageWaistbag: 3
     ClothingEyesGlasses: 6
+    ClothingUnderwearBottomPantiesWhite: 10 #IanStation
+    ClothingUnderwearBottomBoxersWhite: 10 #IanStation
+    ClothingUnderwearBottomPantiesPink: 5 #IanStation
+    ClothingUnderwearBottomPantiesProgrammerFemale: 5 #IanStation
+    ClothingUnderwearBottomPantiesProgrammerMale: 5 #IanStation
+    ClothingUnderwearBottomPantiesBeeFemale: 5 #IanStation
+    ClothingUnderwearBottomPantiesBeeMale: 5 #IanStation
+    ClothingUnderwearBottomPantiesRedFemale: 5 #IanStation
+    ClothingUnderwearBottomPantiesRedMale: 5 #IanStation
+    ClothingUnderwearBottomPantiesBlackFemale: 5 #IanStation
+    ClothingUnderwearBottomPantiesBlackMale: 5 #IanStation
+    ClothingUnderwearTopWhite: 10 #IanStation
+    ClothingUnderwearTopBee: 5 #IanStation
+    ClothingUnderwearTopPink: 5 #IanStation
+    ClothingUnderwearTopProggmramer: 5 #IanStation
+    ClothingUnderwearTopRed: 5 #IanStation
+    ClothingUnderwearTopBlack: 5 #IanStation
+    ClothingUniformJumpsuitmaidblack: 3 #IanStation
+    ClothingUniformJumpsuitmaidblue: 3 #IanStation
+    ClothingUniformJumpsuitmaidpink: 3 #IanStation
+    ClothingEyesGlassesCosmeticSunglasses: 6
     ClothingEyesGlassesSunglasses: 2
     ClothingHandsGlovesColorBlack: 4
     ClothingHandsGlovesColorGray: 4

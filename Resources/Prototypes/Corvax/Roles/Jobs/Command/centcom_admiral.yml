@@ -13,3 +13,6 @@
     id: CCAdmiralPDA
     ears: ClothingHeadsetCentCom
     pocket1: RubberStampCentcom
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation

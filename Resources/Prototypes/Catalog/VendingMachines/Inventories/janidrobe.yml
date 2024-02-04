@@ -11,10 +11,9 @@
     ClothingHeadsetService: 2
     ClothingOuterWinterJani: 2
     ClothingNeckScarfStripedPurple: 3
+    ClothingUniformJumpskirtJanimaid: 2 #IanStation
+    ClothingUniformJumpskirtJanimaidmini: 1 #IanStation
 
   emaggedInventory:
-    ClothingUniformJumpskirtJanimaid: 2
-    ClothingUniformJumpskirtJanimaidmini: 1
-    ClothingUniformJumpsuitmaidblack: 1
-    ClothingUniformJumpsuitmaidblue: 1
-    ClothingUniformJumpsuitmaidpink: 1
+    SoapSyndie: 1
+    AdvMopItem: 1

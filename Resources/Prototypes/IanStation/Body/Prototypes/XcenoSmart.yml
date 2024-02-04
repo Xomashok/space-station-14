@@ -1,0 +1,49 @@
+- type: body
+  id: XcenoSmartBody
+  name: "XcenoSmart"
+  root: torso
+  slots:
+    head:
+      part: HeadXcenoSmart
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    torso:
+      part: TorsoXcenoSmart
+      connections:
+      - left arm
+      - right arm
+      - left leg
+      - right leg
+      organs:
+        heart: OrganHumanHeart
+        lungs: OrganHumanLungs
+        stomach: OrganReptilianStomach
+        liver: OrganHumanLiver
+        kidneys: OrganHumanKidneys
+    right arm:
+      part: RightArmXcenoSmart
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmXcenoSmart
+      connections:
+      - left hand
+    right hand:
+      part: RightHandXcenoSmart
+    left hand:
+      part: LeftHandXcenoSmart
+    right leg:
+      part: RightLegXcenoSmart
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegXcenoSmart
+      connections:
+      - left foot
+    right foot:
+      part: RightFootXcenoSmart
+    left foot:
+      part: LeftFootXcenoSmart

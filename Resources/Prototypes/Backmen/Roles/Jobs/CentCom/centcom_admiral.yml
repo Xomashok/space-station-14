@@ -15,13 +15,13 @@
   requirements:
     - !type:RoleTimeRequirement
       role: JobCentralCommandOperator
-      time: 21600
+      time: 10800
     - !type:RoleTimeRequirement
       role: JobCentralCommandOfficial
-      time: 21600
+      time: 10800
     - !type:DepartmentTimeRequirement
       department: CentCom
-      time: 31600
+      time: 15800
   accessGroups:
     - AllAccess
     - CentCom
@@ -51,7 +51,7 @@
 - type: entity
   parent: CentcomPDABackmen
   id: CCAdmiralPDA
-  name: Centcom Admiral PDA
+  name: КПК Начальника штаба ЦК
   description: Light green sign of walking bureaucracy.
   components:
     - type: Pda
@@ -70,7 +70,7 @@
 - type: entity
   parent: CentcomIDCardDeathsquad
   id: IDCardCentComAdmiral
-  name: Id карта Адмирала ЦК
+  name: Id карта Начальника штаба ЦК
   components:
     - type: Sprite
       layers:
@@ -86,3 +86,21 @@
         - AllAccess
         - CentCom
         - MTFLeader
+
+- type: startingGear
+  id: DSCCGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitCentcomFormal
+    shoes: ClothingShoesBootsJack
+    head: ClothingHeadHatBeretCentcomNaval
+    eyes: ClothingEyesGlassesSunglasses
+    gloves: ClothingHandsGlovesCentcomNaval
+    outerClothing: ClothingOuterArmorBasic
+    neck: ClothingNeckCloakCentcomAdmiral
+    id: CCAdmiralPDA
+    ears: ClothingHeadsetAltCentCom
+    pocket1: RubberStampCentcom
+    belt: ClothingBeltSheathFilled
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation

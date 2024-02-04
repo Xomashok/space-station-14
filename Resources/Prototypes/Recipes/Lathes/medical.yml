@@ -226,3 +226,11 @@
     Steel: 600
     Plastic: 300
 
+- type: latheRecipe #XenoStation
+  id: ClothingMaskBreathMedicalSecurity 
+  result: ClothingMaskBreathMedicalSecurity
+  completetime: 4
+  materials:
+    Steel: 600
+    Plastic: 300
+

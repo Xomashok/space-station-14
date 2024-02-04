@@ -1,6 +1,12 @@
 - type: soundCollection
   id: LobbyMusic
   files:
+    - /Audio/IanStation/Lobby/The_Stains_Of_Time__.ogg
+    - /Audio/IanStation/Lobby/Y2mate.mx-Hotline-Miami-2_-Wrong-Number-Soundtrack-Dust-_320-kbps_.ogg
+    - /Audio/IanStation/Lobby/Bloody_Storm.ogg #IanStation
+    - /Audio/IanStation/Lobby/-_2021.ogg #IanSTation
+    - /Audio/IanStation/Lobby/A_Brighter_Future_HOME_-_Resonance_but_the_beat_order_is_reversed_and_its_beats_4_2.ogg #IanStation
+    - /Audio/IanStation/Lobby/OIIAIOIIIAI_spinning_cat_meme.ogg #IanStation
     - /Audio/Lobby/thunderdome.ogg
     - /Audio/Lobby/absconditus.ogg
     - /Audio/Lobby/space_asshole.ogg
@@ -14,9 +20,5 @@
     - /Audio/Lobby/pwmur.ogg
     - /Audio/Lobby/lasers_rip_apart_the_bulkhead.ogg
     - /Audio/Lobby/every_light_is_blinking_at_once.ogg
-    - /Audio/Lobby/SpacedMusic.ogg
-    - /Audio/Lobby/HumanMusic.ogg
-    - /Audio/Lobby/NexMusic.ogg
-    - /Audio/Lobby/space_oddity.ogg
     - /Audio/Corvax/Lobby/title2.ogg # Corvax-LobbyMusic
     - /Audio/Lobby/atomicamnesiammx.ogg

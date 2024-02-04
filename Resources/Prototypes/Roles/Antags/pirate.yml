@@ -8,6 +8,9 @@
     id: PiratePDA
     belt: ClothingBeltUtility
     pocket1: AppraisalTool
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpsuitPirate
   satchel: ClothingBackpackPirateFilled
   duffelbag: ClothingBackpackPirateFilled
@@ -24,6 +27,9 @@
     pocket1: AppraisalTool
     pocket2: EnergyCutlass
     outerClothing: ClothingOuterCoatPirate
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpskirtColorLightBrown
   satchel: ClothingBackpackPirateFilled
   duffelbag: ClothingBackpackPirateFilled
@@ -39,6 +45,9 @@
     belt: ClothingBeltUtility
     pocket1: AppraisalTool
     outerClothing: ClothingOuterCoatGentle
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpsuitPirate
   satchel: ClothingBackpackPirateFilled
   duffelbag: ClothingBackpackPirateFilled

@@ -1,0 +1,12 @@
+- type: construction
+  name: hamster-robot
+  id: hamster-robot
+  graph: hamster-robot
+  startNode: start
+  targetNode: bot
+  category: construction-category-utilities
+  objectType: Item
+  description: Cyborg hamlet marvels of robotics has artificial intelligence.
+  icon:
+    sprite: IanStation/Mobs/Animals/hamster_robot.rsi
+    state: hamster-robot

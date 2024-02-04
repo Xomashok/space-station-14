@@ -1,0 +1,194 @@
+- type: entity
+  parent: BasePlushie
+  id: Hamster
+  name: Хомяк 
+  description: Обычный хомяк, а вы что ожидали?
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Fun/toys_hamster.rsi
+    state: hamster
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/muffled_weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/muffled_weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/muffled_weh.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/muffled_weh.ogg
+
+- type: entity
+  parent: Hamster
+  id: HamsterBar
+  name: Хомяк бармен.
+  description: Спроси у него о лучших напитках.
+  components:
+  - type: Sprite
+    state: hamster_bar
+
+- type: entity
+  parent: Hamster
+  id: HamsterBotan
+  name: Хомяк ботаник
+  description: Единственный ботаник который разбирается в ботанике.
+  components:
+  - type: Sprite
+    state: hamster_botan
+
+- type: entity
+  parent: Hamster
+  id: HamsterCap
+  name: Хомяк капитан
+  description: Теперь ERP с Гамлетом легально.
+  components:
+  - type: Sprite
+    state: hamster_cap
+
+- type: entity
+  parent: Hamster
+  id: HamsterCargo
+  name: Хомяк карго
+  description: Чистокровный каргонец.
+  components:
+  - type: Sprite
+    state: hamster_cargo
+ 
+- type: entity
+  parent: Hamster
+  id: HamsterCentCom
+  name: Хомяк ЦК
+  description: Имеет больше власти чем капитан.
+  components:
+  - type: Sprite
+    state: hamster_cent_com
+  
+- type: entity
+  parent: Hamster
+  id: HamsterClean
+  name: Хомяк уборщик
+  description: Самая чистая игрушка.
+  components:
+  - type: Sprite
+    state: hamster_clean 
+  
+- type: entity
+  parent: Hamster
+  id: HamsterClown
+  name: Хомяк клоун
+  description: Был сделан для того что бы клоуны не забыли как одеватся.
+  components:
+  - type: Sprite
+    state: hamster_clown
+  
+- type: entity
+  parent: Hamster
+  id: HamsterDark
+  name: Тёмный хомяк
+  description: Он сьест твою душу.
+  components:
+  - type: Sprite
+    state: hamster_dark
+  
+- type: entity
+  parent: Hamster
+  id: HamsterDeadSkuad
+  name: Хомяк эскадрона смерти
+  description: И главное "Ни каких свидетелей".
+  components:
+  - type: Sprite
+    state: hamster_dead_skuad
+ 
+- type: entity
+  parent: Hamster
+  id: HamsterEng
+  name: Хомяк инжинер
+  description: Главный по сигулярности.
+  components:
+  - type: Sprite
+    state: hamster_eng
+ 
+- type: entity
+  parent: Hamster
+  id: HamsterGold
+  name: Золотой хомяк
+  description: Самое дорогое на станции, после Иана конечно.
+  components:
+  - type: Sprite
+    state: hamster_gold
+  
+- type: entity
+  parent: Hamster
+  id: HamsterMed
+  name: Хомяк медик
+  description: Хомяк медик, но лечить не умеет.
+  components:
+  - type: Sprite
+    state: hamster_med
+ 
+- type: entity
+  parent: Hamster
+  id: HamsterNuke
+  name: Хомяк нюкер
+  description: Не кладите его в один шкафчик с диском от ядерки.
+  components:
+  - type: Sprite
+    state: hamster_nuke
+  
+- type: entity
+  parent: Hamster
+  id: HamsterRRS
+  name: Хомяк Быстрого Реагирования
+  description: ХБР прибывает бысрее основного отряда.
+  components:
+  - type: Sprite
+    state: hamster_rrs
+  
+- type: entity
+  parent: Hamster
+  id: HamsterSB
+  name: Хомяк офицер
+  description: Игрушка которая недолюбливает клоунов.
+  components:
+  - type: Sprite
+    state: hamster_sb
+  
+- type: entity
+  parent: Hamster
+  id: HamsterShreak
+  name: Хомяк шрек
+  description: Хомяк шрек, а что ты хотел увидеть?
+  components:
+  - type: Sprite
+    state: hamster_shreak
+  
+- type: entity
+  parent: Hamster
+  id: HamsterTF
+  name: Хомяк шпион
+  description: Вообще беспалевная отсылка.
+  components:
+  - type: Sprite
+    state: hamster_tf
+  
+- type: entity
+  parent: Hamster
+  id: HamsterVarden
+  name: Хомяк варден
+  description: Хоть кто-то знает законы в бриге.
+  components:
+  - type: Sprite
+    state: hamster_varden
+
+- type: entity
+  parent: PlushieXeno
+  id: PlushieXenoCat
+  name: Плюшевая Ксено кошка
+  description: Демо версия ксено кошки.
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Fun/toy_xceno_cat.rsi
+    state: plushie_xeno
+

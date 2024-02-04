@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "hamster_tf"
+    },
+    {
+      "name": "hamster_varden"
+    },
+    {
+      "name": "hamster"
+    },
+    {
+      "name": "hamster_bar"
+    },
+    {
+      "name": "hamster_botan"
+    },
+    {
+      "name": "hamster_cap"
+    },
+    {
+      "name": "hamster_cargo"
+    },
+    {
+      "name": "hamster_cent_com"
+    },
+    {
+      "name": "hamster_chiken"
+    },
+    {
+      "name": "hamster_clean"
+    },
+    {
+      "name": "hamster_clown"
+    },
+    {
+      "name": "hamster_dark"
+    },
+    {
+      "name": "hamster_dead_skuad"
+    },
+    {
+      "name": "hamster_eng"
+    },
+    {
+      "name": "hamster_gold"
+    },
+    {
+      "name": "hamster_med"
+    },
+    {
+      "name": "hamster_nuke"
+    },
+    {
+      "name": "hamster_rrs"
+    },
+    {
+      "name": "hamster_sb"
+    },
+    {
+      "name": "hamster_shreak"
+    }
+  ]
+}

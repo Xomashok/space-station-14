@@ -1,0 +1,85 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingUnderwearTopBase
+  name: based underweart
+  description: "Base top."
+  components:
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Clothing
+    slots: [underweart]
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: MaterialCloth1
+      amount: 1
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 10
+  - type: Tag
+    tags:
+      - underweart
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBee
+  name: Top bee
+  description: Бззззз.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Top/bee_top.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopPink
+  name: Top pink
+  description: Класический розовый лифчик.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Top/pink_top.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopProggmramer
+  name: Top programmer
+  description: Чулки и ошейник в комплект не входят.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Top/programmer_top.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopWhite
+  name: Top white
+  description: Стандартный бюстгальтер Нанотрасен для сотрудников станции. Покрашен в белый цвет.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Top/white_top.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopRed
+  name: Красный лифчик
+  description: Красный кружевной лифчик.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Top/red_top.rsi
+
+- type: entity
+  parent: ClothingUnderwearTopBase
+  id: ClothingUnderwearTopBlack
+  name: Чёрный лифчик
+  description: Как красный лифчик, только чёрный.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Top/black_top.rsi
+

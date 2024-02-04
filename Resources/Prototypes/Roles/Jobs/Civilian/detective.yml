@@ -6,10 +6,7 @@
   requirements:
   - !type:DepartmentTimeRequirement
     department: Security
-    time: 72000 #20 hrs # Corvax-RoleTime
-  - !type:DepartmentTimeRequirement
-    department: Civilian
-    time: 18000 # 5 hours
+    time: 36000
   startingGear: DetectiveGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-hop
@@ -48,6 +45,9 @@
     id: DetectivePDA
     ears: ClothingHeadsetSecurity
     belt: ClothingBeltHolsterFilled
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpskirtDetective
   satchel: ClothingBackpackSatchelFilledDetective
   duffelbag: ClothingBackpackDuffelFilledDetective

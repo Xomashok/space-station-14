@@ -24,7 +24,7 @@
     ignorePaused: true
     bodyType: Kinematic
   - type: Body
-    prototype: Aghost
+    prototype: AghostIan
   - type: Access
     groups:
     - AllAccess

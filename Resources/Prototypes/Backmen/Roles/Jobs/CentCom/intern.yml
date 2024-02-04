@@ -14,13 +14,13 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Engineering
-      time: 108000
+      time: 54000
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 108000
+      time: 54000
     - !type:DepartmentTimeRequirement
       department: Civilian
-      time: 108000
+      time: 54000
   access:
     - CentralCommand
     - Service
@@ -69,6 +69,9 @@
     pocket1: MedicatedSuture
     pocket2: MagazineBoxLightRifle
     outerClothing: ClothingOuterArmorBasic
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopBraWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
 
 - type: entity
   parent: BasePDA

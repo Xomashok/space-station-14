@@ -1,0 +1,131 @@
+- type: entity
+  abstract: true
+  parent: Clothing
+  id: ClothingUnderwearBottomBase
+  name: based underwearb
+  components:
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Small
+  - type: Clothing
+    slots: [underwearb]
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: MaterialCloth1
+      amount: 1
+  - type: Food
+    requiresSpecialDigestion: true
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Fiber
+          Quantity: 10
+  - type: Tag
+    tags:
+      - underwearb
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesWhite
+  name: panties
+  description: Стандартное нижнее белье Нанотрейзен для сотрудниц станции. Покрашен в белый цвет.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/pants.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesPink
+  name: panties pink
+  description: Розовые трусы.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/pink_pants_female.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesProgrammerFemale
+  name: programmer pants female
+  description: Ошейник и чулки в комплект не идут.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/programmer_pant_male.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesBeeFemale
+  name: bee pants female
+  description: Бзззз.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/bee_pants_female.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesRedFemale
+  name: Красные женские трусы
+  description: Прикольно натянуть на лампу.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/red_pants_female.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesBlackFemale
+  name: Чёрные женские трусы
+  description: Кружевные трусы, прям как в тех фильмах.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/black_pants_female.rsi
+
+#male
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomBoxersWhite
+  name: boxers
+  description: Стандартное нижнее белье Нанотрейзен для сотрудников станции. Покрашен в белый цвет.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/box.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesBeeMale
+  name: bee pants Male
+  description: Бзззз.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/bee_pants_male.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesProgrammerMale
+  name: programmer pants male
+  description: Ошейник и чулки в комплект не идут.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/programmer_pant_male.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesRedMale
+  name: Красные мужские трусы
+  description: Как боксерские, только красивее.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/red_pants_male.rsi
+
+- type: entity
+  parent: ClothingUnderwearBottomBase
+  id: ClothingUnderwearBottomPantiesBlackMale
+  name: Чёрные мужские трусы
+  description: Строго и сердито.
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Pants/black_pants_male.rsi
+

@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckcollar
+  name: ошейник
+  description: Маленький ошейник... Судя по потертости, его уже много использовали...
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Neck/Scarfs/collar.rsi
+  - type: Clothing
+    sprite: IanStation/Clothing/Neck/Scarfs/collar.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 0.98
+    sprintModifier: 0.98
+  - type: Item
+    size: Tiny

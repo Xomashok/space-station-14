@@ -1,8 +1,6 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Made by Hqlle (github)",
-
   "size": {
     "x": 32,
     "y": 32
@@ -12,7 +10,7 @@
       "name": "icon"
     },
     {
-      "name": "equipped-OUTERCLOTHING",
+      "name": "inhand-right",
       "directions": 4
     },
     {
@@ -20,7 +18,7 @@
       "directions": 4
     },
     {
-      "name": "inhand-right",
+      "name": "equipped-OUTERCLOTHING",
       "directions": 4
     }
   ]

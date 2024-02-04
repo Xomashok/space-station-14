@@ -14,19 +14,19 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 180000
+      time: 60000
     - !type:DepartmentTimeRequirement
       department: Command
-      time: 126000
+      time: 63000
     - !type:RoleTimeRequirement
       role: JobHeadOfSecurity
-      time: 54000
+      time: 27000
     - !type:RoleTimeRequirement
       role: JobCentralCommandSecOfficer
-      time: 36000
+      time: 18000
     - !type:RoleTimeRequirement
       role: JobIAA
-      time: 18000
+      time: 9000
   access:
     - CentralCommand
     - CCSecurity
@@ -71,6 +71,9 @@
     ears: ClothingHeadsetCentComCC
     belt: ClothingBeltSecuritySuper
     pocket2: MagazinePistol
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   satchel: ClothingBackpackSatchelSecurityFilled
   duffelbag: ClothingBackpackDuffelSecurityFilled
 

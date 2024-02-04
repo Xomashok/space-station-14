@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: BaseMobSpeciesOrganic
   id: BaseMobVox
   abstract: true
@@ -60,6 +60,9 @@
         sprite: Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
+      - map: ["underweart"]
+      - map: ["underwearb"]
+      - map: [ "id" ]
       - map: [ "gloves" ]
       - map: [ "shoes" ]
       - map: [ "ears" ]

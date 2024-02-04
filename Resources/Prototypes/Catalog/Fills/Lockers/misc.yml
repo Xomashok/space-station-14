@@ -158,6 +158,10 @@
           prob: 0.20
         - id: DrinkSpaceLube
           prob: 0.20
+        - id: ClothingNeckcollar #IanStation
+          prob: 0.16 #IanStation
+        - id: SoapLambda #IanStation
+          prob: 0.01 #IanStation
         - id: BarberScissors
           prob: 0.05
         # Syndicate loot
@@ -249,6 +253,10 @@
           prob: 0.20
         - id: ModularReceiver
           prob: 0.1
+        - id: ClothingNeckcollar #IanStation
+          prob: 0.16 #IanStation
+        - id: SoapLambda #IanStation
+          prob: 0.01 #IanStation
         # Syndicate loot
         - id: null
           prob: 0.95

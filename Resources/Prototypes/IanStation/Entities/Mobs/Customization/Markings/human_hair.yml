@@ -1,0 +1,17 @@
+- type: marking
+  name: Старая небрежная  
+  id: HumanHairLongBedheadOld
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: IanStation/Mobs/Customization/human_hair.rsi
+      state: long_bedhead
+- type: marking
+  name: Старая длинная небрежная
+  id: HumanHairFloorlengthBedheadOld
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: IanStation/Mobs/Customization/human_hair.rsi
+      state: floorlength_bedhead
+

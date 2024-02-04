@@ -1,0 +1,116 @@
+- type: entity
+  name: Robo Hamlet
+  parent: SimpleMobBase
+  id: MobHamsterRobot
+  description: Cyborg Hamlet marvels of robotics has artificial intelligence
+  components:
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: ghost-role-information-hamster-robot-name
+    description: ghost-role-information-hamster-robot-description
+  - type: GhostTakeoverAvailable
+  - type: Speech
+    speechSounds: Squeak
+  - type: Sprite
+    drawdepth: SmallMobs
+    sprite: IanStation/Mobs/Animals/hamster_robot.rsi
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: hamster-robot
+  - type: Item
+    size: 5
+  - type: Physics
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.2
+        density: 120
+        mask:
+        - SmallMobMask
+        layer:
+        - SmallMobLayer
+  - type: MobState
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      80: Critical
+      120: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 8
+    baseSprintSpeed : 8
+  - type: Appearance
+  - type: Inventory
+    speciesId: hamsterRobot
+    templateId: petRobot
+  - type: InventorySlots
+  - type: Strippable
+  - type: UserInterface
+    interfaces:
+    - key: enum.StrippingUiKey.Key
+      type: StrippableBoundUserInterface
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: hamster-robot
+      Critical:
+        Base: dead-robot
+      Dead:
+        Base: dead-robot
+  - type: Extractable
+    grindableSolutionName: food
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        reagents:
+        - ReagentId: WeldingFuel
+          Quantity: 60
+  - type: Butcherable
+    spawned:
+    - id: Steel
+      amount: 10
+  - type: ReplacementAccent
+    accent: mouse
+  - type: Tag
+    tags:
+    - Trash
+    - CannotSuicide
+  - type: Respirator
+    damage:
+      types:
+        Asphyxiation: 0.0
+    damageRecovery:
+      types:
+        Asphyxiation: -0.0
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.0
+  - type: CombatMode
+  - type: MeleeWeapon
+    hidden: true
+    soundHit:
+        path: /Audio/Effects/bite.ogg
+    angle: 0
+    animation: WeaponArcBite
+    damage:
+      types:
+        Piercing: 4
+  - type: InteractionPopup
+    successChance: 0.4
+    interactSuccessString: petting-success-hamster
+    interactFailureString: petting-failure-hamster
+    interactSuccessSound:
+      path: /Audio/Animals/fox_squeak.ogg
+  - type: Bloodstream
+    bloodMaxVolume: 60
+  - type: CanEscapeInventory
+    BaseResistTime: 3
+  - type: MobPrice
+    price: 120
+  - type: Construction
+    graph: hamster-robot
+    node: bot

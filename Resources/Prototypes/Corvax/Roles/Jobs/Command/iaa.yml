@@ -3,12 +3,12 @@
   name: job-name-iaa
   playTimeTracker: JobIAA
   requirements:
-  - !type:DepartmentTimeRequirement
-    department: Command
-    time: 72000
-  - !type:DepartmentTimeRequirement
-    department: Security
-    time: 36000
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 36000
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 18000
   startingGear: IAAGear
   icon: "JobIconIAA"
   supervisors: job-supervisors-centcom
@@ -40,6 +40,9 @@
     eyes: ClothingEyesGlassesSunglasses
     ears: ClothingHeadsetIAA
     neck: ClothingNeckLawyerbadge
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   inhand:
     - BriefcaseIAAFilled
   innerClothingSkirt: ClothingUniformJumpskirtLawyerBlack

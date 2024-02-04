@@ -34,6 +34,26 @@
         - ToyMouse
         - PlushieDiona
         - RubberPig
+        - Hamster
+        - HamsterBar
+        - HamsterBotan
+        - HamsterCap
+        - HamsterCargo
+        - HamsterCentCom
+        - HamsterClean
+        - HamsterClown
+        - HamsterDark
+        - HamsterDeadSkuad
+        - HamsterEng
+        - HamsterGold
+        - HamsterMed
+        - HamsterNuke
+        - HamsterRRS
+        - HamsterSB
+        - HamsterShreak
+        - HamsterTF
+        - HamsterVarden
+        - PlushieXenoCat
         - PlushieArachind
       chance: 0.5
       offset: 0.2

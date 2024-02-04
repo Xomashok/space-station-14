@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   id: CyborgEndoskeleton
   name: cyborg endoskeleton
   description: A frame that cyborgs are built on. Significantly less spooky than expected.
@@ -166,6 +166,30 @@
         whitelist:
           tags:
             - BorgJanitorTorso
+      borg_l_armo_export: #IanStation
+        whitelist:
+          tags:
+          - BorgSBLArm
+      borg_r_armo_export:
+        whitelist:
+          tags:
+          - BorgSBRArm
+      borg_l_lego_export:
+        whitelist:
+          tags:
+          - BorgSBLLeg
+      borg_r_lego_export:
+        whitelist:
+          tags:
+          - BorgSBRLeg
+      borg_heado_export:
+        whitelist:
+          tags:
+          - BorgSBHead
+      borg_chesto_export:
+        whitelist:
+          tags:
+          - BorgSBTorso
   - type: ContainerContainer
     containers:
       part-container: !type:Container
@@ -212,6 +236,13 @@
       - BorgMiningRLeg
       - BorgMiningHead
       - BorgMiningTorso
+      security: #IanStation
+      - BorgSBLArm
+      - BorgSBRArm
+      - BorgSBLLeg
+      - BorgSBRLeg
+      - BorgSBHead
+      - BorgSBTorso
   - type: Construction
     graph: Cyborg
     node: start
@@ -222,4 +253,4 @@
   - type: Pullable
   - type: GuideHelp
     guides:
-    - Cyborgs
+    - Robotics

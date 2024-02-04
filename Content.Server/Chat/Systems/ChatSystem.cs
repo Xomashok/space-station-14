@@ -216,8 +216,6 @@ public sealed partial class ChatSystem : SharedChatSystem
         if (!CanSendInGame(message, shell, player))
             return;
 
-        ignoreActionBlocker = CheckIgnoreSpeechBlocker(source, ignoreActionBlocker);
-
         // this method is a disaster
         // every second i have to spend working with this code is fucking agony
         // scientists have to wonder how any of this was merged
@@ -298,7 +296,6 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         if (player != null && !_chatManager.HandleRateLimit(player))
             return;
-
         // It doesn't make any sense for a non-player to send in-game OOC messages, whereas non-players may be sending
         // in-game IC messages.
         if (player?.AttachedEntity is not { Valid: true } entity || source != entity)

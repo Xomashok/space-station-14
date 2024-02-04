@@ -1,0 +1,23 @@
+- type: reagent
+  id: rat-poison
+  name: reagent-name-rat-poison
+  group: Toxins
+  desc: reagent-desc-rat-poison
+  flavor: bitter
+  color: "#ffb28b"
+  physicalDesc: reagent-physical-desc-rat-poison
+  plantMetabolism:
+       - !type:PlantAdjustToxins
+         amount: 10
+       - !type:PlantAdjustHealth
+         amount: -5
+  metabolisms:
+    Poison:
+      effects:
+      - !type:HealthChange
+        damage:
+          types:
+            Poison: 10
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 1.0

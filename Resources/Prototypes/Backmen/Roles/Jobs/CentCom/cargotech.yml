@@ -14,13 +14,13 @@
   requirements:
     - !type:DepartmentTimeRequirement
       department: Cargo
-      time: 126000
+      time: 63000
     - !type:RoleTimeRequirement
       role: JobCentralCommandAssistant
-      time: 21600
+      time: 10800
     - !type:DepartmentTimeRequirement
       department: CentCom
-      time: 43200
+      time: 21600
   access:
     - CentralCommand
     - CCCargo
@@ -60,6 +60,9 @@
     id: CCCargoPDA
     ears: ClothingHeadsetCentCom
     pocket1: AppraisalTool
+    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
+  underweart: ClothingUnderwearTopWhite # IanStation
+  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpskirtCargo
   satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelFilled

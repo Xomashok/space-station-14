@@ -257,6 +257,8 @@
     idleState: icon
     runningState: building
     dynamicRecipes:
+      - ClothingOuterHardsuitEVA #XenoStation
+      - ClothingHeadHelmetEVALarge #XenoStation
       - PowerDrill
       - MiningDrill
       - AnomalyScanner
@@ -462,6 +464,7 @@
       - TelecomServerCircuitboard
       - MassMediaCircuitboard
       - ShipyardCircuitboard # backmen
+      - MachineBluespaceHarvesterCircuitboard
   - type: MaterialStorage
     whitelist:
       tags:
@@ -538,6 +541,12 @@
     - RightLegBorgService
     - HeadBorgService
     - TorsoBorgService
+    - LightHeadBorgSB #IanStation
+    - LeftArmBorgSB #IanStation
+    - LeftLegBorgSB #IanStation
+    - RightArmBorgSB #IanStation
+    - RightLegBorgSB #IanStation
+    - TorsoBorgSB #IanStation
     dynamicRecipes:
     - ProximitySensor
     - BorgModuleLightReplacer
@@ -575,6 +584,8 @@
     - HamtrLLeg
     - HamtrRLeg
     - VimHarness
+    - BorgModuleArrest #IanStation
+    - BorgModuleCombat #IanStation
   - type: MaterialStorage
     whitelist:
       tags:
@@ -653,6 +664,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - ClothingMaskBreathMedicalSecurity #Xeno_Station
       - ClothingEyesHudSecurity
       - Flash
       - Handcuffs
@@ -814,6 +826,7 @@
     idleState: icon
     runningState: icon
     staticRecipes:
+      - ClothingMaskBreathMedicalSecurity #xeno_station
       - Brutepack
       - Ointment
       - Gauze

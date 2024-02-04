@@ -40,3 +40,4 @@ panic-bunker-account-reason-overall =
         [few] часа
        *[other] часов
     }.
+

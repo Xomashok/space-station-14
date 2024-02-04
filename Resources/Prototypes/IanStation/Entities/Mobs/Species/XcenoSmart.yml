@@ -1,0 +1,58 @@
+# Anything human specific (e.g. UI, input) goes under MobHuman
+- type: entity
+  name: Urist McXcenoSmart
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobXcenoSmart
+  abstract: true
+  components:
+  - type: Hunger
+    starvationDamage:
+      types:
+        Cold: 1
+        Bloodloss: 1 
+  - type: Icon # It will not have an icon in the adminspawn menu without this. Body parts seem fine for whatever reason.
+    sprite: IanStation/Mobs/Species/Xceno/parts.rsi
+    state: xceno_m
+  - type: Thirst
+  - type: Perishable
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  - type: Body
+    prototype: XcenoSmartBody
+    requiredLegs: 2
+  - type: Barotrauma
+    damage:
+      types:
+        Blunt: 0.175
+  - type: DamageOnHighSpeedImpact
+    damage:
+      types:
+        Blunt: 10
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 3
+    baseSprintSpeed : 5
+  - type: Vocal
+    sounds:
+      Male: UnisexXcenoSmart
+      Female: UnisexXcenoSmart
+      Unsexed: UnisexXcenoSmart
+  - type: TypingIndicator
+    proto: alien
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcPunch
+    damage:
+      types:
+        Piercing: 5
+  - type: LizardAccent
+
+- type: entity
+  name: Urist McXcenoSmart
+  id: MobXcenoSmartDummy
+  parent: BaseSpeciesDummy
+  noSpawn: true

@@ -101,6 +101,7 @@
     - type: TypingIndicator
       proto: robot
     - type: SiliconLawBound
+    - type: ShowSecurityIcons
 
 - type: entity
   save: false
