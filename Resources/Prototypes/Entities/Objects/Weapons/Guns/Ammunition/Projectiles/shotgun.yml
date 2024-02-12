@@ -25,6 +25,7 @@
     damage:
       types:
         Blunt: 10
+        Brainwashed: 0.3
   - type: StaminaDamageOnCollide
     damage: 55 # 2 hits to stun
 
@@ -41,7 +42,7 @@
     damage:
       types:
         Piercing: 10
-
+        Brainwashed: 0.3
 - type: entity
   id: PelletShotgunIncendiary
   name: pellet (.50 incendiary)
@@ -56,6 +57,7 @@
       types:
         Blunt: 3
         Heat: 7
+        Brainwashed: 0.3
   - type: IgnitionSource
     ignited: true
 
@@ -72,7 +74,7 @@
     damage:
       types:
         Blunt: 1
-
+        Brainwashed: 0.2
 - type: entity
   id: PelletShotgunImprovised
   name: improvised pellet
@@ -86,6 +88,7 @@
     damage:
       types:
         Piercing: 3
+        Brainwashed: 0.3
         Slash: 3 #remember, it's metal shrapnel!
 
 - type: entity
@@ -101,6 +104,7 @@
     damage:
       types:
         Blunt: 1
+        Brainwashed: 0.3
   - type: SolutionContainerManager
     solutions:
       ammo:
@@ -164,7 +168,7 @@
     damage:
       types:
         Heat: 5
-
+        Brainwashed: 0.3
 - type: entity
   id: PelletShotgunUranium
   name: pellet (.50 uranium)
@@ -179,7 +183,7 @@
       types:
         Radiation: 5
         Piercing: 5
-
+        Brainwashed: 0.3
 - type: entity
   id: PelletGrapeshot #tally fucking ho
   name: grapeshot pellet
@@ -197,7 +201,7 @@
       types:
         Piercing: 25
         Structural: 5
-
+        Brainwashed: 0.3
 - type: entity
   id: PelletGlass
   name: glass shard
@@ -217,3 +221,4 @@
     damage:
       types:
         Slash: 25
+        Brainwashed: 0.5

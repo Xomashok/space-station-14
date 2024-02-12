@@ -33,6 +33,7 @@
     damage:
       types:
         Blunt: 9
+        Brainwashed: 3
     angle: 60
     animation: WeaponArcThrust
   - type: StaminaDamageOnHit

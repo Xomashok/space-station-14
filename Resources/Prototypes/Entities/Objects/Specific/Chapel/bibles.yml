@@ -12,13 +12,16 @@
         Brute: -35
         Burn: -35
         Immaterial: -10
+        Brainwashed: -5
     damageOnFail:
       groups:
         Brute: 15
         Airloss: 15
+        Brainwashed: 5
     damageOnUntrainedUse: ## What a non-chaplain takes when attempting to heal someone
       groups:
         Burn: 10
+        Brainwashed: 5
   - type: Prayable
     bibleUserOnly: true
   - type: Summonable
@@ -59,13 +62,16 @@
     damage:
       types:
         Caustic: 20 ## ~15 dps
+        Brainwashed: 10
     damageOnFail:
       groups:
         Brute: 15
         Airloss: 25
+        Genetic: 10
     damageOnUntrainedUse:
       types:
         Caustic: 50
+        Brainwashed: 15
     failChance: 0
     locPrefix: "necro"
     healSound: "/Audio/Effects/lightburn.ogg"
