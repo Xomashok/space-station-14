@@ -203,6 +203,11 @@
       - id: ClothingHeadCage # backmen
       - id: PresentMetempsychoticMachine # backmen
 
+      - id: BiofabricatorMachineCircuitboard
+      - id: BiomassReclaimerMachineCircuitboard
+      - id: MaterialBiomass
+      - id: MaterialBiomass
+
 - type: entity
   id: LockerChiefMedicalOfficerFilled
   suffix: Filled
@@ -227,6 +232,11 @@
       - id: AntiPsychicKnife # backmen
       - id: ClothingHeadCage # backmen
       - id: PresentMetempsychoticMachine # backmen
+
+      - id: BiofabricatorMachineCircuitboard
+      - id: BiomassReclaimerMachineCircuitboard
+      - id: MaterialBiomass
+      - id: MaterialBiomass
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
