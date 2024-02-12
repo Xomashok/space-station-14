@@ -114,8 +114,6 @@
           prob: 0.2
         - id: Lantern
           prob: 0.50
-        - id: RabbitCostume
-          prob: 0.30
         - id: Wirecutter
           prob: 0.33
         - id: Screwdriver
