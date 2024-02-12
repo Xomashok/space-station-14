@@ -1,0 +1,54 @@
+- type: entity
+  name: Гига Свин
+  description: Это же ВЕЛИКОСВИН!!!
+  parent: [SimpleMobBase]
+  id: gigapig
+  components:
+  - type: MeleeWeapon
+    damage:
+     groups:
+       Brute: 20
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: Mobs/Animals/gigapig.rsi
+    offset: 0,0.4
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: running
+
+  - type: InventorySlots
+  - type: Cuffable
+  
+  - type: Stripping
+  - type: Strippable
+  - type: UserInterface
+    interfaces:
+    - key: enum.StrippingUiKey.Key
+      type: StrippableBoundUserInterface
+ 
+  - type: Hands
+ 
+  - type: Body
+    prototype: Primate
+    requiredLegs: 1 # TODO: More than 1 leg
+  - type: CreamPied
+
+  - type: GhostRole
+    prob: 1
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Гига Свин
+    description: Это же ВЕЛИКОСВИН!!!
+  - type: GhostTakeoverAvailable
+  - type: Tag
+    tags:
+    - CannotSuicide
+    - DoorBumpOpener
+    - VimPilot
+  - type: Grammar
+    attributes:
+      proper: false
+      gender: male
+  - type: StealTarget
+    stealGroup: Pig

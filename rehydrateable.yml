@@ -1,0 +1,288 @@
+# recipes should generally cost 1.5x to 2x of the biomass output of their mob
+
+- type: latheRecipe
+  id: MonkeyCube
+  result: MonkeyCube
+  completetime: 30
+  materials:
+    Biomass: 16
+
+- type: latheRecipe
+  id: KoboldCube
+  result: KoboldCube
+  completetime: 30
+  materials:
+    Biomass: 16
+
+- type: latheRecipe
+  id: CowCube
+  result: CowCube
+  completetime: 30
+  materials:
+    Biomass: 120
+
+- type: latheRecipe
+  id: GoatCube
+  result: GoatCube
+  completetime: 30
+  materials:
+    Biomass: 35
+
+- type: latheRecipe
+  id: MothroachCube
+  result: MothroachCube
+  completetime: 45 # prevent biblical floods
+  materials:
+    Biomass: 20 # a lot of materials wasted due to complex genetics
+
+- type: latheRecipe
+  id: MouseCube
+  result: MouseCube
+  completetime: 15
+  materials:
+    Biomass: 12
+
+- type: latheRecipe
+  id: CockroachCube
+  result: CockroachCube
+  completetime: 15
+  materials:
+    Biomass: 16
+
+- type: latheRecipe
+  id: SpaceCarpCube
+  result: SpaceCarpCube
+  completetime: 30
+  materials:
+    Biomass: 24
+    Plasma: 600
+
+- type: latheRecipe
+  id: SpaceTickCube
+  result: SpaceTickCube
+  completetime: 15
+  materials:
+    Biomass: 8
+    Plasma: 300 # less biomass but more plasma
+
+- type: latheRecipe
+  id: AbominationCube
+  result: AbominationCube
+  completetime: 30
+  materials: # abominations are slow and essentially worse than even carp
+    Biomass: 10
+    Plasma: 100 # more biomass but less plasma
+
+
+
+- type: latheRecipe
+  id: BioFoodMeatPlant
+  result: FoodMeatPlant
+  completetime: 2
+  materials: 
+    Biomass: 5
+
+- type: latheRecipe
+  id: BioFoodMeatLizard
+  result: FoodMeatLizard
+  completetime: 2
+  materials: 
+    Biomass: 5
+
+- type: latheRecipe
+  id: BioFoodMeatHuman
+  result: FoodMeatHuman
+  completetime: 2
+  materials: 
+    Biomass: 5
+
+- type: latheRecipe
+  id: BioMaterialSheetMeat
+  result: MaterialSheetMeat
+  completetime: 2
+  materials:
+    Biomass: 60
+
+- type: latheRecipe
+  id: BioFoodMeatGoliath
+  result: FoodMeatGoliath
+  completetime: 2
+  materials:
+    Biomass: 10
+
+- type: latheRecipe
+  id: BioFoodMeatXeno
+  result: FoodMeatXeno
+  completetime: 2
+  materials:
+    Biomass: 10
+
+- type: latheRecipe
+  id: Biogigapig
+  result: Mobgigapig
+  completetime: 2
+  materials:
+    Biomass: 250
+
+- type: latheRecipe
+  id: BioOrganHumanAppendix
+  result: OrganHumanAppendix
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganSlimeLungs
+  result: OrganSlimeLungs
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganDionaEyes
+  result: OrganDionaEyes
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganArachnidEyes
+  result: OrganArachnidEyes
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganHumanStomach
+  result: OrganHumanStomach
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganDionaStomach
+  result: OrganDionaStomach
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganDwarfStomach
+  result: OrganDwarfStomach
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganHumanLungs
+  result: OrganHumanLungs
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganArachnidLungs
+  result: OrganArachnidLungs
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganHumanBrain
+  result: OrganHumanBrain
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOrganDionaBrain
+  result: OrganDionaBrain
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOOrganHumanLiver
+  result: OrganHumanLiver
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOOrganDwarfLiver
+  result: OrganDwarfLiver
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOOrganHumanKidneys
+  result: OrganHumanKidneys
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOOrganArachnidHeart
+  result: OrganArachnidHeart
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOOrganHumanHeart
+  result: OrganHumanHeart
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOOrganDwarfHeart
+  result: OrganDwarfHeart
+  completetime: 2
+  materials:
+    Biomass: 6
+
+
+- type: latheRecipe
+  id: BioOOrganHumanEars
+  result: OrganHumanEars
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOOrganHumanTongue
+  result: OrganHumanTongue
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioOOrganArachnidTongue
+  result: OrganArachnidTongue
+  completetime: 2
+  materials:
+    Biomass: 6
+
+- type: latheRecipe
+  id: BioMobSlimesPetCube
+  result: MobSlimesPetCube
+  completetime: 20
+  materials: 
+    Biomass: 100
+    Plasma: 1000 # more biomass but less plasma
+
+- type: latheRecipe
+  id: BioFoxCube
+  result: FoxCube
+  completetime: 20
+  materials: 
+    Biomass: 110
+
+- type: latheRecipe
+  id: BioCatKittenCube
+  result: CatKittenCube
+  completetime: 20
+  materials: 
+    Biomass: 60
