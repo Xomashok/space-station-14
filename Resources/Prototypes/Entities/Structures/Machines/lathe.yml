@@ -601,7 +601,7 @@
   id: Biofabricator
   parent: BaseLathe
   name: biofabricator
-  description: Produces animal cubes using biomass.
+  description: Производит мясо, органы и кубики животных используя биомассу.
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -634,12 +634,45 @@
     - MothroachCube
     - MouseCube
     - CockroachCube
+
+    - BioMaterialSheetMeat
+    - BioFoodMeatGoliath
+    - BioFoodMeatXeno
+    - Biogigapig
+
+    - BioOrganHumanAppendix
+    - BioOrganSlimeLungs
+    - BioOrganDionaEyes
+    - BioOrganArachnidEyes
+    - BioOrganHumanStomach
+    - BioOrganDionaStomach
+    - BioOrganDwarfStomach
+    - BioOrganHumanLungs
+    - BioOrganArachnidLungs
+    - BioOrganHumanBrain
+    - BioOrganDionaBrain
+    - BioOOrganHumanLiver
+    - BioOOrganDwarfLiver
+    - BioOOrganHumanKidneys
+    - BioOOrganArachnidHeart
+    - BioOOrganHumanHeart
+    - BioOOrganDwarfHeart
+    - BioOOrganHumanEars
+    - BioOOrganHumanTongue
+    - BioOOrganArachnidTongue
+    - BioMobSlimesPetCube
+    - BioFoxCube
+    - BioCatKittenCube
+
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - AbominationCube
     - SpaceCarpCube
     - SpaceTickCube
 
+    - BioFoodMeatPlant
+    - BioFoodMeatLizard
+    - BioFoodMeatHuman
 - type: entity
   id: SecurityTechFab
   parent: BaseLathe

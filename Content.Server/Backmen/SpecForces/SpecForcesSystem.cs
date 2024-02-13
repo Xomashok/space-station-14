@@ -26,7 +26,7 @@ public sealed class SpecForcesSystem : EntitySystem
     // ReSharper disable once MemberCanBePrivate.Global
     [ViewVariables] public TimeSpan LastUsedTime { get; private set; } = TimeSpan.Zero;
 
-    private readonly TimeSpan _delayUsage = TimeSpan.FromMinutes(2);
+    private readonly TimeSpan _delayUsage = TimeSpan.FromMinutes(15);
     private readonly ReaderWriterLockSlim _callLock = new();
 
     public override void Initialize()
@@ -225,17 +225,6 @@ public sealed class SpecForcesSystem : EntitySystem
                 }
 
                 break;
-            case SpecForcesType.ERTAlpha:
-                SpawnEntity(ErtAplhaLeader, _random.Pick(spawns));
-                while (countExtra > 0)
-                {
-                    if (countExtra-- > 0)
-                    {
-                        SpawnEntity(ErtAplhaOperative, _random.Pick(spawns));
-                    }
-                }
-
-                break;
             case SpecForcesType.DeathSquad:
                 SpawnEntity(SpestnazOfficer, _random.Pick(spawns));
                 while (countExtra > 0)
@@ -265,7 +254,6 @@ public sealed class SpecForcesSystem : EntitySystem
                 {
                     // todo: cvar
                     SpecForcesType.ERT => EtrShuttlePath,
-                    SpecForcesType.ERTAlpha => ErtAplhaShuttlePath,
                     SpecForcesType.RXBZZ => RxbzzShuttlePath,
                     SpecForcesType.DeathSquad => SpestnazShuttlePath,
                     _ => EtrShuttlePath
@@ -297,17 +285,6 @@ public sealed class SpecForcesSystem : EntitySystem
                     _chatSystem.DispatchStationAnnouncement(station,
                         Loc.GetString("spec-forces-system-ertcall-annonce"),
                         Loc.GetString("spec-forces-system-ertcall-title"),
-                        false, _ertAnnounce
-                    );
-                }
-
-                break;
-            case SpecForcesType.ERTAlpha:
-                foreach (var station in stations)
-                {
-                    _chatSystem.DispatchStationAnnouncement(station,
-                        Loc.GetString("spec-forces-system-ertcall-annonce"),
-                        Loc.GetString("spec-forces-system-ertAplha1call-title"),
                         false, _ertAnnounce
                     );
                 }
@@ -358,10 +335,6 @@ public sealed class SpecForcesSystem : EntitySystem
     [ValidatePrototypeId<EntityPrototype>] private const string ErtEngineer = "SpawnMobHumanERTEngineerEVAV2_1";
     [ValidatePrototypeId<EntityPrototype>] private const string ErtJunitor = "SpawnMobHumanERTJunitorEVAV2_1";
     [ValidatePrototypeId<EntityPrototype>] private const string ErtMedical = "SpawnMobHumanERTMedicalEVAV2_1";
-
-    private const string ErtAplhaShuttlePath = "Maps/Backmen/Grids/NT-CC-Specnaz-013.yml";
-    [ValidatePrototypeId<EntityPrototype>] private const string ErtAplhaLeader = "SpawnMobHumanERTLeaderAlpha1";
-    [ValidatePrototypeId<EntityPrototype>] private const string ErtAplhaOperative = "SpawnMobHumanERTOperativeAlpha1";
 
     private const string RxbzzShuttlePath = "Maps/Backmen/Grids/NT-CC-SRV-013.yml";
     [ValidatePrototypeId<EntityPrototype>] private const string RxbzzLeader = "MobHumanRXBZZLeader";

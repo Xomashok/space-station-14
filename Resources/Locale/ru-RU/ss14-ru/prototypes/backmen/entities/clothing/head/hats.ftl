@@ -16,5 +16,3 @@ ent-ClothingHeadHelmetInsulated = утепляющая тюбетейка
     .desc = Псионически изолирует голову того, кто находится внутри нее. У него есть некоторая защита от физических повреждений.
 ent-ClothingHeadMailCarrier = шляпа почтальона
     .desc = Пахнет хорошей пенсией.
-ent-ClothingHeadHelmetKendoMen = Men
-    .desc = Типичный головной доспех практикующего кендо.
