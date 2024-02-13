@@ -27,7 +27,6 @@
         Brute: 10
       types:
         Structural: 30
-        Brainwashed: 0.5
   - type: Item
     size: Normal
     shape:

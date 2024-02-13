@@ -12,7 +12,6 @@
     damage:
       types:
         Blunt: 4
-        Brainwashed: 0.3
   - type: CanPenetrate
     penetrationLayer: MobLayer
   - type: StaminaDamageOnCollide
@@ -34,7 +33,6 @@
     damage:
       types:
         Piercing: 45
-        Brainwashed: 0.3
   - type: CanPenetrate
     penetrationLayer: MobLayer
   - type: TimedDespawn
@@ -55,7 +53,6 @@
       types:
         Blunt: 1
         Heat: 2
-        Brainwashed: 0.3
   - type: CanPenetrate
     penetrationLayer: MobLayer
   - type: IgniteOnCollide

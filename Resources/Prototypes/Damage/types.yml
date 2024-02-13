@@ -78,8 +78,3 @@
   id: Stun
   armorCoefficientPrice: 5
   armorFlatPrice: 20
-
-- type: damageType
-  id: Brainwashed
-  armorCoefficientPrice: 1
-  armorFlatPrice: 20

@@ -15,7 +15,6 @@
       types:
         Slash: 25
         Piercing: 15
-        Brainwashed: 5
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/armblade.rsi

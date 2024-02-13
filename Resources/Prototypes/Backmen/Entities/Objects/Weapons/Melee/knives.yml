@@ -11,7 +11,6 @@
         types:
           Slash: 10
           Holy: 3
-          Brainwashed: 3
     - type: StaminaDamageOnHit
       damage: 0
     - type: AntiPsionicWeapon

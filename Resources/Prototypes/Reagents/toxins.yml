@@ -72,11 +72,10 @@
         conditions:
         - !type:ReagentThreshold
           reagent: ChloralHydrate
-          min: 11
+          min: 20
         damage:
           types:
             Poison: 1.5
-            Brainwashed: 4
 
 - type: reagent
   id: Mold
@@ -94,7 +93,7 @@
         damage:
           types:
             Poison: 1
-            Brainwashed: 0.5
+
 - type: reagent
   id: PolytrinicAcid
   name: reagent-name-polytrinic-acid
@@ -308,7 +307,7 @@
         damage:
           types:
             Radiation: 3
-            Brainwashed: 2
+
 - type: reagent
   id: HeartbreakerToxin
   name: reagent-name-heartbreaker-toxin
@@ -350,7 +349,6 @@
   physicalDesc: reagent-physical-desc-opaque
   flavor: bitter
   color: "#77b58e"
-
   plantMetabolism:
   - !type:PlantAdjustToxins
     amount: 10
@@ -362,6 +360,7 @@
         component: SeeingRainbows
         type: Add
         time: 10
+        refresh: false
   # TODO: PROPER hallucinations
 
 - type: reagent
@@ -424,7 +423,6 @@
         damage:
           types:
             Poison: 0.4
-            Brainwashed: 1
       - !type:ChemVomit
         probability: 0.04 #Scaled for time, not metabolismrate.
         conditions:
@@ -463,7 +461,7 @@
           damage:
             types:
               Poison: 2
-              Brainwashed: 3
+
 - type: reagent
   id: Romerol
   name: reagent-name-romerol
@@ -512,7 +510,6 @@
         damage:
           types:
             Poison: 1
-            Brainwashed: 0.5
       - !type:AdjustReagent
         conditions:
         - !type:OrganType
@@ -559,11 +556,6 @@
         refresh: false
         type: Add
 
-      - !type:HealthChange
-        damage:
-          groups:
-            Brainwashed: 1
-
 - type: reagent
   id: Honk
   name: reagent-name-honk
@@ -589,7 +581,7 @@
         damage:
           types:
             Poison: 0.06
-            Brainwashed: 4
+
 
 - type: reagent
   id: Lead
@@ -606,7 +598,6 @@
         damage:
           types:
             Poison: 0.6 # Makes it 20 damage per unit.
-            Brainwashed: 2
 
 - type: reagent
   id: Bungotoxin
@@ -623,7 +614,6 @@
         damage:
           types:
             Poison: 1.8
-            Brainwashed: 2
 
 - type: reagent
   id: Vestine
@@ -647,7 +637,6 @@
         damage:
           groups:
             Airloss: 2
-            Brainwashed: 1
 
 - type: reagent
   id: Tazinide

@@ -14,7 +14,6 @@
     damage:
       types:
         Slash: 17 #cmon, it has to be at least BETTER than the rest.
-        Brainwashed: 1
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Reflect
@@ -47,7 +46,6 @@
     damage:
       types:
         Slash: 15
-        Brainwashed: 1
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -69,7 +67,6 @@
     damage:
       types:
         Slash: 30
-        Brainwashed: 1
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/energykatana.rsi
@@ -105,7 +102,6 @@
     damage:
       types:
         Slash: 15
-        Brainwashed: 0.5
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -129,7 +125,6 @@
     damage:
       types:
         Slash: 20
-        Brainwashed: 0.5
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
@@ -158,7 +153,6 @@
     damage:
       types:
         Slash: 16
-        Brainwashed: 0.5
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item

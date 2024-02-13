@@ -4,6 +4,7 @@
     - Blunt
     - Slash
     - Piercing
+
 - type: damageGroup
   id: Burn
   damageTypes:
@@ -34,5 +35,3 @@
   id: Genetic
   damageTypes:
     - Cellular
-    - Brainwashed
-

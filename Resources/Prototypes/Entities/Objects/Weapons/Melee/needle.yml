@@ -12,7 +12,6 @@
     damage:
       types:
         Piercing: 1
-        Brainwashed: 0.5
   - type: Item
     size: Tiny
   - type: BalloonPopper

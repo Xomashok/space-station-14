@@ -14,7 +14,6 @@
     damage:
       types:
         Slash: 12
-        Brainwashed: 5
   - type: Item
     size: Normal
   - type: Clothing
@@ -39,7 +38,6 @@
     damage:
       types:
         Slash: 16
-        Brainwashed: 5
   - type: Item
     size: Normal
   - type: Clothing
@@ -69,7 +67,6 @@
         Blunt: 10
         Slash: 10
         Structural: 5
-        Brainwashed: 5
   - type: Wieldable
   - type: IncreaseDamageOnWield
     damage:
@@ -77,7 +74,6 @@
         Blunt: 5
         Slash: 5
         Structural: 10
-        Brainwashed: 7
   - type: Item
     size: Ginormous
   - type: Clothing

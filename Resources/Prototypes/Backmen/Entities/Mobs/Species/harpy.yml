@@ -97,8 +97,7 @@
     - type: Body
       prototype: Harpy
     - type: Damageable
-      damageModifierSet: FragilePsyche
-      damageContainer: Biological
+      damageModifierSet: Harpy
     - type: MeleeWeapon
       soundHit:
         collection: AlienClaw

@@ -23,7 +23,6 @@
         Slash: 2
         Blunt: 2
         Structural: 4
-        Brainwashed: 3
     soundHit:
       path: /Audio/Weapons/chainsaw.ogg
       params:
@@ -33,7 +32,6 @@
       types:
         Slash: 4
         Structural: 4
-        Brainwashed: 3
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/chainsaw.rsi

@@ -8,7 +8,7 @@
     damage:
       types:
         Piercing: 16
-        Brainwashed: 0.4
+
 - type: entity
   id: BulletPistolPractice
   name: bullet (.35 auto practice)
@@ -19,7 +19,7 @@
     damage:
       types:
         Blunt: 2
-        Brainwashed: 0.3
+
 - type: entity
   id: BulletPistolRubber
   name: bullet (.35 auto rubber)
@@ -30,7 +30,7 @@
     damage:
       types:
         Blunt: 3
-        Brainwashed: 0.3
+
 - type: entity
   id: BulletPistolIncendiary
   parent: BaseBulletIncendiary
@@ -42,7 +42,7 @@
       types:
         Blunt: 2
         Heat: 14
-        Brainwashed: 0.4
+
 - type: entity
   id: BulletPistolUranium
   parent: BaseBulletUranium
@@ -54,4 +54,3 @@
       types:
         Radiation: 6
         Piercing: 10
-        Brainwashed: 0.3

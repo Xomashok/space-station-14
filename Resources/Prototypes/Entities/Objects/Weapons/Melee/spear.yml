@@ -38,7 +38,6 @@
     damage:
       types:
         Piercing: 12
-        Brainwashed: 1
     angle: 0
     animation: WeaponArcThrust
     soundHit:
@@ -47,7 +46,6 @@
     damage:
       types:
         Piercing: 15
-        Brainwashed: 1
   - type: Item
     size: Ginormous
   - type: Clothing
@@ -78,7 +76,6 @@
     damage:
       types:
         Piercing: 4
-        Brainwashed: 1
   - type: Damageable
     damageContainer: Inorganic
   - type: Destructible
@@ -109,7 +106,6 @@
     damage:
       types:
         Blunt: 5
-        Brainwashed: 1
   - type: UseDelay
   - type: Appearance
   - type: SolutionContainerVisuals
@@ -129,12 +125,10 @@
     damage:
       types:
         Piercing: 15
-        Brainwashed: 1
   - type: DamageOtherOnHit
     damage:
       types:
         Piercing: 18
-        Brainwashed: 1
   - type: Construction
     graph: SpearReinforced
 
@@ -151,12 +145,10 @@
     damage:
       types:
         Piercing: 18
-        Brainwashed: 1
   - type: DamageOtherOnHit
     damage:
       types:
         Piercing: 21
-        Brainwashed: 1
   - type: Construction
     graph: SpearPlasma
 
@@ -174,13 +166,11 @@
       types:
         Piercing: 10
         Radiation: 8
-        Brainwashed: 1.5
   - type: DamageOtherOnHit
     damage:
       types:
         Piercing: 12
         Radiation: 9
-        Brainwashed: 1.5
   - type: Construction
     graph: SpearUranium
 

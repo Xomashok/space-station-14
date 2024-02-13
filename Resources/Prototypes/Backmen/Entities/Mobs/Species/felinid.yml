@@ -24,7 +24,6 @@
   - type: Body
     prototype: Felinid
   - type: Damageable
-    damageModifierSet: FragilePsyche
     damageContainer: Biological
   - type: MeleeWeapon
     hidden: true

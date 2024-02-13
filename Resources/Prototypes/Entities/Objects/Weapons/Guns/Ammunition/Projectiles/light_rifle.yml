@@ -8,7 +8,7 @@
     damage:
       types:
         Piercing: 19
-        Brainwashed: 0.3
+
 - type: entity
   id: BulletLightRiflePractice
   name: bullet (.20 rifle practice)
@@ -19,7 +19,7 @@
     damage:
       types:
         Blunt: 2
-        Brainwashed: 0.3
+
 - type: entity
   id: BulletLightRifleRubber
   name: bullet (.20 rifle rubber)
@@ -30,7 +30,7 @@
     damage:
       types:
         Blunt: 3
-        Brainwashed: 0.3
+
 - type: entity
   id: BulletLightRifleIncendiary
   parent: BaseBulletIncendiary
@@ -42,7 +42,7 @@
       types:
         Blunt: 3
         Heat: 16
-        Brainwashed: 0.3
+
 - type: entity
   id: BulletLightRifleUranium
   parent: BaseBulletUranium
@@ -54,4 +54,3 @@
       types:
         Radiation: 9
         Piercing: 10
-        Brainwashed: 0.3

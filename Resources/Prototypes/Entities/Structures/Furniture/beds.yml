@@ -9,7 +9,6 @@
       types:
         Poison: -0.1
         Blunt: -0.1
-        Brainwashed: -0.1
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -73,7 +72,6 @@
         Poison: -0.2
         Cold: -0.4
         Blunt: -0.2
-        Brainwashed: -0.05
   - type: Construction
     graph: bed
     node: medicalbed
@@ -108,20 +106,11 @@
       - !type:PlaySoundBehavior
         sound:
           collection: WoodDestroy
-          path: /Audio/Effects/woodhit.ogg
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWoodPlank:
             min: 1
             max: 5
-
-  - type: HealOnBuckle
-    damage:
-      types:
-        Poison: -0.2
-        Cold: -0.4
-        Blunt: -0.2
-        Brainwashed: -0.05
 
 - type: entity
   parent: Bed
@@ -155,23 +144,12 @@
         acts: ["Destruction"]
       - !type:PlaySoundBehavior
         sound:
-          path: /Audio/Effects/woodhit.ogg
+          collection: WoodDestroy
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialWebSilk:
             min: 1
             max: 1
-
-  - type: HealOnBuckle
-    damage:
-      types:
-        Poison: -0.2
-        Cold: -0.4
-        Blunt: -0.2
-        Brainwashed: -0.05
-
-
-
   - type: Construction
     graph: WebStructures
     node: bed
@@ -201,4 +179,3 @@
           MaterialWoodPlank:
             min: 2
             max: 2
-

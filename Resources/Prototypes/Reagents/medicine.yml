@@ -777,7 +777,7 @@
             Airloss: -2
             Brute: -2
             Immaterial: -2
-            Genetic: -3
+
 - type: reagent
   id: Ultravasculine
   name: reagent-name-ultravasculine
@@ -850,11 +850,6 @@
         - !type:ReagentThreshold
           min: 5
 
-      - !type:HealthChange
-        damage:
-          types:
-            Brainwashed: -3
-
 - type: reagent
   id: Ethyloxyephedrine
   name: reagent-name-ethyloxyephedrine
@@ -879,11 +874,6 @@
         messages: ["ethyloxyephedrine-effect-feeling-awake", "ethyloxyephedrine-effect-clear-mind"]
         type: Local
         probability: 0.1
-      - !type:HealthChange
-        damage:
-          types:
-            Brainwashed: -1
-
 
 - type: reagent
   id: Diphenylmethylamine
@@ -905,10 +895,6 @@
         messages: ["ethyloxyephedrine-effect-feeling-awake", "ethyloxyephedrine-effect-clear-mind"]
         type: Local
         probability: 0.1
-
-        damage:
-          types:
-            Brainwashed: -4
 
 - type: reagent
   id: Sigynate
@@ -1042,7 +1028,7 @@
             Heat: -0.2
             Shock: -0.2
             Cold: -0.2
-            Brainwashed: -0.1
+
 - type: reagent
   id: Pyrazine
   name: reagent-name-pyrazine

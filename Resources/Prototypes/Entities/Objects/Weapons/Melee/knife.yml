@@ -15,7 +15,6 @@
     damage:
       types:
         Slash: 10
-        Brainwashed: 1
     soundHit:
       path: /Audio/Weapons/bladeslice.ogg
   - type: Sprite
@@ -65,7 +64,6 @@
     damage:
       types:
         Slash: 13
-        Brainwashed: 1
   - type: Item
     size: Normal
     sprite: Objects/Weapons/Melee/cleaver.rsi
@@ -92,14 +90,12 @@
     damage:
       types:
         Slash: 12
-        Brainwashed: 1
   - type: EmbeddableProjectile
     sound: /Audio/Weapons/star_hit.ogg
   - type: DamageOtherOnHit
     damage:
       types:
         Slash: 10
-        Brainwashed: 1
   - type: Item
     sprite: Objects/Weapons/Melee/combat_knife.rsi
   - type: DisarmMalus
@@ -131,7 +127,6 @@
     damage:
       types:
         Slash: 15
-        Brainwashed: 1
   - type: Item
     sprite: Objects/Weapons/Melee/kukri_knife.rsi
 
@@ -157,7 +152,6 @@
     damage:
       types:
         Slash: 5.5
-        Brainwashed: 0.5
   - type: Item
     sprite: Objects/Weapons/Melee/shiv.rsi
   - type: DisarmMalus
@@ -177,7 +171,6 @@
     damage:
       types:
         Slash: 7 #each "tier" grants an additional 2 damage
-        Brainwashed: 0.5
   - type: Item
     sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
   - type: Sprite
@@ -197,7 +190,6 @@
     damage:
       types:
         Slash: 9
-        Brainwashed: 0.5
   - type: Item
     sprite: Objects/Weapons/Melee/plasma_shiv.rsi
   - type: Sprite
@@ -218,7 +210,6 @@
       types:
         Slash: 7
         Radiation: 4
-        Brainwashed: 0.5
   - type: Item
     sprite: Objects/Weapons/Melee/uranium_shiv.rsi
   - type: Sprite
