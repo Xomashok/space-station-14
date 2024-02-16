@@ -632,11 +632,46 @@
     - MothroachCube
     - MouseCube
     - CockroachCube
+
+
+    - BioMaterialSheetMeat
+    - BioFoodMeatGoliath
+    - BioFoodMeatXeno
+    - Biogigapig
+
+    - BioOrganHumanAppendix
+    - BioOrganSlimeLungs
+    - BioOrganDionaEyes
+    - BioOrganArachnidEyes
+    - BioOrganHumanStomach
+    - BioOrganDionaStomach
+    - BioOrganDwarfStomach
+    - BioOrganHumanLungs
+    - BioOrganArachnidLungs
+    - BioOrganHumanBrain
+    - BioOrganDionaBrain
+    - BioOOrganHumanLiver
+    - BioOOrganDwarfLiver
+    - BioOOrganHumanKidneys
+    - BioOOrganArachnidHeart
+    - BioOOrganHumanHeart
+    - BioOOrganDwarfHeart
+    - BioOOrganHumanEars
+    - BioOOrganHumanTongue
+    - BioOOrganArachnidTongue
+    - BioMobSlimesPetCube
+    - BioFoxCube
+    - BioCatKittenCube
+
+
   - type: EmagLatheRecipes
     emagStaticRecipes:
     - AbominationCube
     - SpaceCarpCube
     - SpaceTickCube
+    - BioFoodMeatPlant
+    - BioFoodMeatLizard
+    - BioFoodMeatHuman
 
 - type: entity
   id: SecurityTechFab

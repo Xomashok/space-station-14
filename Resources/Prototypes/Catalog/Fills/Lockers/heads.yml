@@ -253,6 +253,12 @@
       - id: ClothingHeadCage # backmen
       - id: PresentMetempsychoticMachine # backmen
 
+      - id: BiofabricatorMachineCircuitboard
+      - id: BiomassReclaimerMachineCircuitboard
+      - id: MaterialBiomass
+      - id: MaterialBiomass
+
+
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
   suffix: Filled, Hardsuit
@@ -301,6 +307,11 @@
       - id: PresentSophie # backmen
       - id: PonderingOrbTelepathic # backmen
       - id: EncryptionKeyBinary
+
+      - id: BiofabricatorMachineCircuitboard
+      - id: BiomassReclaimerMachineCircuitboard
+      - id: MaterialBiomass
+      - id: MaterialBiomass
 
 - type: entity
   id: LockerHeadOfSecurityFilledHardsuit
