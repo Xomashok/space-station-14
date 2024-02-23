@@ -562,6 +562,21 @@
     Telecrystal: 2
   categories:
   - UplinkUtility
+  
+- type: listing
+  id: UplinkClothingEyesHudSyndicate
+  name: uplink-clothing-eyes-hud-syndicate-name
+  description: uplink-clothing-eyes-hud-syndicate-desc
+  productEntity: ClothingEyesHudSyndicate
+  cost:
+    Telecrystal: 2
+  categories:
+    - UplinkUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
 
 - type: listing
   id: UplinkRadioJammer
@@ -714,8 +729,13 @@
   cost:
     Telecrystal: 1
   categories:
-  - UplinkImplants
-
+    - UplinkImplants
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - NukeOpsUplink
+ 
 - type: listing
   id: UplinkUplinkImplanter # uplink uplink real
   name: uplink-uplink-implanter-name
@@ -1289,7 +1309,8 @@
   id: UplinkHardsuitSyndieElite
   name: uplink-hardsuit-syndieelite-name
   description: uplink-hardsuit-syndieelite-desc
-  productEntity: ClothingOuterHardsuitSyndieElite
+  icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
+  productEntity: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
   cost:
     Telecrystal: 10
   categories:
@@ -1299,7 +1320,8 @@
   id: UplinkClothingOuterHardsuitJuggernaut
   name: uplink-clothing-outer-hardsuit-juggernaut-name
   description: uplink-clothing-outer-hardsuit-juggernaut-desc
-  productEntity: ClothingOuterHardsuitJuggernaut
+  icon: { sprite: /Textures/Structures/Storage/Crates/syndicate.rsi, state: icon }
+  productEntity: CrateCybersunJuggernautBundle
   cost:
     Telecrystal: 12
   categories:
@@ -1334,6 +1356,16 @@
   productEntity: CigPackSyndicate
   cost:
     Telecrystal: 1
+  categories:
+  - UplinkMisc
+
+- type: listing
+  id: UplinkClothingConductingGloves
+  name: uplink-clothing-conducting-gloves-name
+  description: uplink-clothing-conducting-gloves-desc
+  productEntity: ClothingHandsGlovesConducting
+  cost:
+    Telecrystal: 2
   categories:
   - UplinkMisc
 
