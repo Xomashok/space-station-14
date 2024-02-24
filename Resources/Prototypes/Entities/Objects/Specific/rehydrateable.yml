@@ -94,6 +94,7 @@
     possibleSpawns:
     - MobMouse
 
+
 - type: entity
   parent: MonkeyCube
   id: CockroachCube
@@ -144,6 +145,7 @@
       effects:
       - !type:AddToSolutionReaction
         solution: cube
+
   - type: Rehydratable
     catalyst: Blood # blood is fuel
     catalystMinimum: 10
@@ -264,3 +266,39 @@
         hard: false
         layer:
         - LowImpassable
+
+- type: entity
+  parent: MonkeyCube
+  id: MobSlimesPetCube
+  name: Радужный кубик
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobSlimesPet
+
+- type: entity
+  parent: MonkeyCube
+  id: Mobgigapig
+  name: Накаченный кубик 
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - gigapig
+
+- type: entity
+  parent: MonkeyCube
+  id: FoxCube
+  name: Лисий кубик
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobFox
+
+- type: entity
+  parent: MonkeyCube
+  id: CatKittenCube
+  name: Маленький кошачий кубик
+  components:
+  - type: Rehydratable
+    possibleSpawns:
+    - MobCatKitten
