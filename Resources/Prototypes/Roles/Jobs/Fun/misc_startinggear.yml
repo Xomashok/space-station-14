@@ -140,6 +140,7 @@
     mask: ClothingMaskGasSyndicate
     eyes: ClothingEyesHudSyndicate
     ears: ClothingHeadsetAltSyndicate
+    neck: SyndicateWhistle
     gloves: ClothingHandsGlovesCombat
     outerClothing: ClothingOuterHardsuitSyndieCommander
     shoes: ClothingShoesBootsCombatFilled
@@ -179,14 +180,14 @@
   satchel: ClothingBackpackDuffelSyndicateOperativeMedic
   duffelbag: ClothingBackpackDuffelSyndicateOperativeMedic
 
-# Syndicate Footsoldier Gear - Unarmed
+# Syndicate Footsoldier Gear
 - type: startingGear
   id: SyndicateFootsoldierGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
     head: ClothingHeadHelmetSwatSyndicate
     mask: ClothingMaskGas
-    outerClothing: ClothingOuterArmorBasicSlim
+    outerClothing: ClothingOuterArmorBasic
     ears: ClothingHeadsetAltSyndicate
     gloves: ClothingHandsGlovesCombat
     back: ClothingBackpackFilled
@@ -196,28 +197,26 @@
   underweart: ClothingUnderwearTopWhite # IanStation
   underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpsuitOperative
-  satchel: ClothingBackpackDuffelSyndicateOperative
+  satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelSyndicateOperative
 
-# Syndicate Footsoldier Gear - Knife
+# Syndicate Footsoldier Gear - No Headset
 - type: startingGear
-  id: SyndicateFootsoldierGearKnife
+  id: SyndicateFootsoldierGearRuin
   equipment:
     jumpsuit: ClothingUniformJumpsuitOperative
     head: ClothingHeadHelmetSwatSyndicate
     mask: ClothingMaskGas
-    outerClothing: ClothingOuterArmorBasicSlim
-    ears: ClothingHeadsetAltSyndicate
+    outerClothing: ClothingOuterArmorBasic
     gloves: ClothingHandsGlovesCombat
     back: ClothingBackpackFilled
     shoes: ClothingShoesBootsCombat
-    pocket1: CombatKnife
     id: SyndiPDA
     underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
   underweart: ClothingUnderwearTopWhite # IanStation
   underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpsuitOperative
-  satchel: ClothingBackpackDuffelSyndicateOperative
+  satchel: ClothingBackpackSatchelFilled
   duffelbag: ClothingBackpackDuffelSyndicateOperative
 
 # Syndicate Footsoldier Gear - Energy Sword

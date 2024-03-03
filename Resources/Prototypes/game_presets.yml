@@ -103,6 +103,7 @@
   showInVote: true
   rules:
     - Traitor
+    - SubGamemodesRule
     - BasicStationEventScheduler
     - WageScheduler #backmen: currency
     - BasicRoundstartVariation
@@ -130,6 +131,7 @@
   showInVote: true
   rules:
     - Nukeops
+    - SubGamemodesRule
     - BasicStationEventScheduler
     - WageScheduler #backmen: currency
 
@@ -158,6 +160,7 @@
   showInVote: true
   rules:
     - Revolutionary
+    - SubGamemodesRule
     - BasicStationEventScheduler
     - BasicRoundstartVariation
 

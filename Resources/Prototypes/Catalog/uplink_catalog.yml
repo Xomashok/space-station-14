@@ -539,6 +539,7 @@
   productEntity: EncryptionKeyBinary
   cost:
     Telecrystal: 3
+
   categories:
   - UplinkUtility
 
@@ -821,6 +822,17 @@
   productEntity: ChemicalSynthesisKit
   cost:
     Telecrystal: 2
+  categories:
+  - UplinkBundles
+
+- type: listing
+  id: UplinkDecoyKit
+  name: uplink-decoy-kit-name
+  description: uplink-decoy-kit-desc
+  icon: { sprite: /Textures/Objects/Tools/Decoys/operative_decoy.rsi, state: folded }
+  productEntity: ClothingBackpackDuffelSyndicateDecoyKitFilled
+  cost:
+    Telecrystal: 6
   categories:
   - UplinkBundles
 

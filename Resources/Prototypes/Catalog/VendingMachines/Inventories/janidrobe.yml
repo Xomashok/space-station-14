@@ -5,7 +5,7 @@
     ClothingUniformJumpskirtJanitor: 2
     ClothingHandsGlovesJanitor: 2
     ClothingShoesColorBlack: 2
-    ClothingShoesGaloshes: 2 # Corvax-MRP
+    ClothingShoesGaloshes: 2
     ClothingHeadHatPurplesoft: 2
     ClothingBeltJanitor: 2
     ClothingHeadsetService: 2
@@ -13,7 +13,11 @@
     ClothingNeckScarfStripedPurple: 3
     ClothingUniformJumpskirtJanimaid: 2 #IanStation
     ClothingUniformJumpskirtJanimaidmini: 1 #IanStation
+    ClothingUniformJumpsuitmaidblack: 1 #IanStation
+    ClothingUniformJumpsuitmaidblue: 1 #IanStation
+    ClothingUniformJumpsuitmaidpink: 1 #IanStation
 
   emaggedInventory:
     SoapSyndie: 1
     AdvMopItem: 1
+
