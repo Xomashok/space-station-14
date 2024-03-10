@@ -1,0 +1,14 @@
+- type: constructionGraph
+  id: graphRinaA
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: nodeRinaA
+      steps:
+      - material: Steel
+        amount: 5
+        doAfter: 5
+
+  - node: nodeRinaA
+    entity: RinaA

@@ -1,0 +1,22 @@
+- type: entity
+  id: CrateFunToys_DL
+  parent: CrateGenericSteel
+  components:
+  - type: StorageFill
+    contents:
+      - id: Toys_DL
+        amount: 1
+      - id: Jones_Wolf
+        amount: 1
+      - id: Chani_Verovskaya
+        amount: 1
+      - id: Plush_Rimukius
+        amount: 1
+      - id: Plush_Yuna
+        amount: 1
+      - id: Julia_SnezhinkovaA
+        amount: 1
+      - id: Maria_Holmes
+        amount: 1
+      - id: Tony_Holme
+        amount: 1

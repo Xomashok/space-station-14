@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckFox
+  name: Шарф из лисьего хвоста.
+  description: Только не показывай его жителям Марана...
+  components:
+  - type: Sprite
+    sprite: IanStation/Clothing/Neck/Scarfs/Foxs_tailr.rsi
+  - type: Clothing
+    sprite: IanStation/Clothing/Neck/Scarfs/Foxs_tailr.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 1.1
+  - type: Item
+    size: Tiny

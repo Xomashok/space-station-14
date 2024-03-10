@@ -1,0 +1,22 @@
+- type: entity
+  parent: BaseItem
+  id: RinaA
+  name: Руна 
+  description: Важный компонент для проведение ритуалов
+  components:
+  - type: Sprite
+    sprite: Objects/Magic/Rins.rsi
+    state: normal
+
+  - type: Construction
+    graph: graphRinaA
+    node: nodeRinaA
+
+
+
+  - type: PointLight
+    enabled: true
+    color: "#330000"
+    radius: 2.0
+    energy: 5.0
+    netsync: false

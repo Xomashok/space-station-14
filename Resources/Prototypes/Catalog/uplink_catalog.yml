@@ -1667,7 +1667,7 @@
   icon: { sprite: Backmen/Objects/Weapons/Gunsx64/Rifles/akms/big.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledAKMS
   cost:
-    Telecrystal: 18
+    Telecrystal: 17
   categories:
   - UplinkBundles
 
@@ -1711,7 +1711,7 @@
   icon: { sprite: Backmen/Objects/Weapons/Gunsx64/Rifles/aksu.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledAKSU
   cost:
-    Telecrystal: 18
+    Telecrystal: 16
   categories:
   - UplinkBundles
 
@@ -1755,7 +1755,7 @@
   icon: { sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/mp7/big.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledMP7
   cost:
-    Telecrystal: 18
+    Telecrystal: 16
   categories:
   - UplinkBundles
 
@@ -1777,7 +1777,8 @@
   icon: { sprite: Backmen/Objects/Weapons/Gunsx64/SMGs/mp38/big.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledMP38
   cost:
-    Telecrystal: 16
+    Telecrystal: 15
+
   categories:
   - UplinkBundles
 

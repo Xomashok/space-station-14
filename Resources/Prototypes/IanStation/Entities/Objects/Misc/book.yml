@@ -14,3 +14,122 @@
           Blunt: 6
     - type: Paper
       content: book-text-silver
+
+- type: entity
+  parent: BookBase
+  id: BookDLToni
+  name: Первое инженерное отделение  
+  description: Книга выпущенная корпорацией DL описывающая события случившиеся с развед-отрядом солнечной Федерации происходившие в 2972 году. Все официальные источники отрицают документальность этой книги.
+  components:
+    - type: Sprite
+      sprite: IanStation/Objects/Misc/bookDL.rsi
+      layers:
+        - state: First_Engineering_Department
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 6
+    - type: Paper
+      content: book-text-DL
+
+- type: entity
+  parent: BookBase
+  id: BookDLF
+  name: Как торгуют фелинидами?
+  description: Книга рассказивает о том как продают и оценивают фелинидов. Вам понятно, что данной книге не место в владениях NanoTrasen. Книга написана жирным шрифтом видео к чему бы это? 
+  components:
+    - type: Sprite
+      sprite: IanStation/Objects/Misc/bookDL.rsi
+      layers:
+        - state: book8
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 4
+    - type: Paper
+      content: book-text-DLF
+
+- type: entity
+  parent: BookBase
+  id: BookDLS
+  name: Пособие по краже.
+  description: Нет... я выше этого... 
+  components:
+    - type: Sprite
+      sprite: IanStation/Objects/Misc/bookDL.rsi
+      layers:
+        - state: book7
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 10
+    - type: Paper
+      content: book-text-DLS
+
+- type: entity
+  parent: BookBase
+  id: BookDLB1
+  name: Кира и Аннет часть 1.
+  description: Часть 1... ужас это целая серия книг. Строго +18. Если прислонить ухо к книге можно услышать крик редактора.
+  components:
+    - type: Sprite
+      sprite: IanStation/Objects/Misc/bookDL.rsi
+      layers:
+        - state: book5
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 10
+    - type: Paper
+      content: book-text-DLB1
+
+- type: entity
+  parent: BookBase
+  id: BookDLB2
+  name: Кира и Аннет часть 2.
+  description: Часть 2... ужас это целая серия книг. Строго +18. Если прислонить ухо к книге можно услышать крик редактора.
+  components:
+    - type: Sprite
+      sprite: IanStation/Objects/Misc/bookDL.rsi
+      layers:
+        - state: book5
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 10
+    - type: Paper
+      content: book-text-DLB2
+
+- type: entity
+  parent: BookBase
+  id: BookDLB3
+  name: Кира и Аннет часть 3
+  description: Часть 3... ужас это целая серия книг. Строго +18. Если прислонить ухо к книге можно услышать крик редактора.
+  components:
+    - type: Sprite
+      sprite: IanStation/Objects/Misc/bookDL.rsi
+      layers:
+        - state: book5
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 10
+    - type: Paper
+      content: book-text-DLB3
+
+- type: entity
+  parent: BookBase
+  id: BookDLB4
+  name: Инцидент по делу Анны Волковой
+  description: Мне кажется своим стилем она похоже на книгу  "1984" Джорджа Оруэлла. Нет книгу я не читал, но мне кажется они очень похожи... Строго +18.
+  components:
+    - type: Sprite
+      sprite: IanStation/Objects/Misc/bookDL.rsi
+      layers:
+        - state: book6
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 10
+    - type: Paper
+      content: book-text-DLB4

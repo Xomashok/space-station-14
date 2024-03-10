@@ -1,0 +1,121 @@
+- type: entity
+  parent: BasePlushie
+  id: Toys_DL
+  name: Астарта Амар
+  description: Лучшая подружка Марии Металкор. На левой лапке виден логотип корпорации DL.
+  components:
+  - type: Sprite
+    sprite: IanStation/Objects/Fun/DL_toys.rsi
+    state: Astarta_Amar
+
+  - type: Tag
+    tags:
+      - Payload
+  - type: EmitSoundOnUse
+    sound:
+      collection: ToySqueak
+  - type: EmitSoundOnActivate
+    sound:
+      collection: ToySqueak
+  - type: EmitSoundOnCollide
+    sound:
+      collection: ToySqueak
+  - type: EmitSoundOnLand
+    sound:
+      collection: ToyFall
+  - type: EmitSoundOnTrigger
+    sound:
+      collection: ToySqueak
+  - type: UseDelay
+    delay: 1.0
+  - type: MeleeWeapon
+    soundHit:
+      collection: ToySqueak
+    damage:
+      types:
+        Blunt: 0
+  - type: PhysicalComposition
+    materialComposition:
+      Cloth: 100
+  - type: StaticPrice
+    price: 5
+
+- type: entity
+  parent: Toys_DL
+  id: Chani_Verovskaya
+  name: Чани Веровская
+  description: Маленькая и милая... На левой лапке виден логотип корпорации DL.
+  components:
+  - type: Sprite
+    state: Chani_Verovskaya
+
+- type: entity
+  parent: Toys_DL
+  id: Jones_Wolf
+  name: Джонс Вулф
+  description: Маленький пушистый атмосферный техник.  На левой лапке виден логотип корпорации DL.
+  components:
+  - type: Sprite
+    state: Jones_Wolf
+
+- type: entity
+  parent: Toys_DL
+  id: Plush_Rimukius
+  name: Плюшевый Римукиус
+  description: Плюшевый и мягкий унатх! Он кого-то напоминает...  На левой лапке виден логотип корпорации DL.
+  components:
+  - type: Sprite
+    state: Plush_Rimukius
+
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/muffled_weh.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Items/Toys/muffled_weh.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/muffled_weh.ogg
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Items/Toys/muffled_weh.ogg
+
+
+
+- type: entity
+  parent: Toys_DL
+  id: Plush_Yuna
+  name: Плюшевая Юна
+  description: Кажется, на её родной планете эти игрушки называются фумами... Пахнет кауравским порохом, плазменной батареей от лазпушки и премиумными сигарами. Откуда вы знаете, как пахнет кауравский порох. . На левой лапке виден логотип корпорации DL.
+  components:
+  - type: Sprite
+    state: Plush_Yuna
+
+
+
+- type: entity
+  parent: Toys_DL
+  id: Julia_SnezhinkovaA
+  name: Юлия Снежинкова
+  description:Представитель Центрального Командывания который: отберёт всю зарплату у Капитана если тот Ксенофоб. Арестует Квартирмейстера за развлечения с Ксенокошкой. Наорёт на СБ за то что те арестовали Клоуна. Будет иногда работать Оператором ЦК и отбирать зарплату ещё больше! На левой лапке виден логотип корпорации DL.
+  components:
+  - type: Sprite
+    state: Julia_Snezhinkova
+
+- type: entity
+  parent: Toys_DL
+  id: Maria_Holmes
+  name: Мария Металкор
+  description: Самая лучшая игрушка корпорации DL. Она идёт в паре со своим мужем Тони... А где он? 
+  components:
+  - type: Sprite
+    state: Maria_Holmes
+
+- type: entity
+  parent: Toys_DL
+  id: Tony_Holme
+  name: Тони Металкор
+  description: Игрушка корпорации DL. Это же муж Марии... но гда сама Мария
+  components:
+  - type: Sprite
+    state: Tony_Holme

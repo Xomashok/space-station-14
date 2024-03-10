@@ -8,3 +8,14 @@
   category: Fun
   group: market
 
+- type: cargoProduct
+  id: FunnToys_DL
+  name: Игрушки кампании DL
+  description: Игрушки компании DL Industries на 99% сделаны без использования рабского труда. 
+  icon:
+    sprite: IanStation/Objects/Fun/DL_toys.rsi
+    state: Maria_Holmes
+  product: CrateFunToys_DL
+  cost: 900
+  category: Fun
+  group: market

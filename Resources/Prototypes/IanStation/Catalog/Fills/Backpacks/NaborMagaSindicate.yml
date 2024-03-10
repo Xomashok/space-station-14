@@ -1,0 +1,22 @@
+- type: entity
+  parent: ClothingBackpackDuffelSyndicate
+  id: NaborMagaSindicate
+  name: Набор магических предметов
+  description: Как я понимаю ты не смог поступить в Конфедерация Магов...
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadHatWizardFake
+      - id: ClothingOuterWizard
+      - id: BedsheetWiz
+      - id: ToyFigurineWizard
+      - id: SpawnSpellbook
+      - id: BlinkBook
+      - id: CandleRedSmallInfinite
+      - id: CandleRedSmallInfinite
+      - id: CandleRedSmallInfinite
+      - id: CandleRedInfinite
+      - id: CandleRedInfinite
+      - id: CandleRedInfinite
+
+

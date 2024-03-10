@@ -1,0 +1,27 @@
+- type: entity
+  parent: PillCanister
+  id: PillCanisterSindicate
+  name: баночка для таблеток
+  suffix: Космо Наркотики
+  description: Вмещает до 10 таблеток.
+  components:
+  - type: StorageFill
+    contents:
+      - id: PillSpaceDrugs
+      - id: PillSpaceDrugs
+      - id: PillSpaceDrugs
+      - id: PillSpaceDrugs
+
+      - id: PillSpaceDrugs
+      - id: PillSpaceDrugs
+      - id: PillSpaceDrugs
+      - id: PillSpaceDrugs
+
+      - id: PillSpaceDrugs
+      - id: PillSpaceDrugs
+
+
+
+
+
+

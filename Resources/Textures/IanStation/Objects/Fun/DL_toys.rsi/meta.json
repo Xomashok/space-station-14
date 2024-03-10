@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "Astarta_Amar"
+    },
+
+    {
+      "name": "Chani_Verovskaya"
+    },
+
+    {
+      "name": "Jones_Wolf"
+    },
+
+    {
+      "name": "Julia_Snezhinkova"
+    },
+
+    {
+      "name": "Plush_Yuna"
+    },
+
+    {
+      "name": "Maria_Holmes"
+    },
+
+    {
+      "name": "Tony_Holme"
+    },
+
+    {
+      "name": "Plush_Rimukius"
+    }
+  ]
+}

@@ -547,6 +547,15 @@
   - type: StealTarget
     stealGroup: AnimalRenault
 
+  - type: GhostRole
+    makeSentient: true
+    allowSpeech: true
+    allowMovement: true
+    name: Алиса
+    description: Вы верная лиса капитана.
+  - type: GhostTakeoverAvailable
+
+
 - type: entity
   name: Hamlet
   parent: MobHamster

@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Taken from tgstation at commit https://github.com/tgstation/tgstation/commit/856e0a784abd19d20618aa36b26b73d471adf613",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "First_Engineering_Department"
+    },
+
+
+
+    {
+      "name": "book8"
+    },
+
+
+    {
+      "name": "book7"
+    },
+
+    {
+      "name": "book6"
+    },
+
+    {
+      "name": "book5"
+    }
+  ]
+}

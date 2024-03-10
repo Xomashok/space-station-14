@@ -273,3 +273,18 @@ uplink-bribe-name = Набор лоббиста
 uplink-bribe-desc = Сердечный подарок, который может помочь вам изменить чьё-то мнение. Настоящие или фальшивые? Да.
 uplink-hypodart-name = Гиподротик
 uplink-hypodart-desc = Неприметный на первый взгляд дротик с увеличенным резервуаром для химических веществ. Он вмещает в себя до 7 ед. реагентов и мгновенно впрыскивает их при попадании в цель. Изначально пуст.
+
+uplink-MagaSindicate-name = Набор с волшебными предметами
+uplink-NaborMagaSindicate-desc = Для людей не имеющих магических способностей в него входят: книга заклинания призыв, книга заклинания прыжок, фигурка мага, поддельная волшебная шляпа, одеяло волшебника, мантия волшебника и 6 волшебных свечи
+
+uplink-ClothingBeltMilitaryWebbingMedFilled-name = Армейская РПС медика
+uplink-ClothingBeltMilitaryWebbingMedFilled-desc = Набор из 12 медипенов разного назначения.
+
+uplink-ClothingBeltSyndiPillCanister-name = Набор наркотических веществ
+uplink-ClothingBeltSyndiPillCanister-desc = В наборе содержится Стимуляторы и наркотики разных видов. 
+
+uplink-SyndicateShuttleConsoleCircuitboard-name = консоль управления шаттлом синдиката (консольная плата)
+uplink-SyndicateShuttleConsoleCircuitboard-desc = Только для тех агентов которые не хотят сидеть на этих мерзких станциях 
+
+uplink-SyndicateShuttleASetOfZombies-name = Набор для зомбифицирования цели
+uplink-SyndicateShuttleASetOfZombies-desc = В наборе содержится ромерол и яд для отравления цели.
