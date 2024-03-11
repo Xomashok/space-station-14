@@ -127,6 +127,33 @@
       - id: BookSiiverSoul # IanStation
         prob: 0.1
         orGroup: BookPool
+
+      - id: BookDLB1 # IanStation
+        prob: 0.2
+        orGroup: BookPool
+      - id: BookDLB2 # IanStation
+        prob: 0.2
+        orGroup: BookPool
+      - id: BookDLB3 # IanStation
+        prob: 0.2
+        orGroup: BookPool
+
+      - id: BookDLS # IanStation
+        prob: 0.2
+        orGroup: BookPool
+
+      - id: BookDLToni # IanStation
+        prob: 0.2
+        orGroup: BookPool
+
+      - id: BookDLB4 # IanStation
+        prob: 0.2
+        orGroup: BookPool
+
+      - id: BookDLF # IanStation
+        prob: 0.9
+        orGroup: BookPool
+
       - id: BookSpaceEncyclopedia
         orGroup: BookPool
       - id: BookTheBookOfControl

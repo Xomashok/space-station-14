@@ -120,6 +120,25 @@
           prob: 0.2
         - id: PlushieSnake
           prob: 0.2
+
+
+        - id: Toys_DL              #IanStation
+          prob: 0.2 
+        - id: Chani_Verovskaya             #IanStation
+          prob: 0.2
+        - id: Jones_Wolf        #IanStation
+          prob: 0.2
+        - id: Plush_Rimukius        #IanStation
+          prob: 0.2
+        - id: Plush_Yuna                 #IanStation
+          prob: 0.2
+        - id: Julia_SnezhinkovaA                #IanStation
+          prob: 0.2
+        - id: Maria_Holmes                 #IanStation
+          prob: 0.2
+        - id: Tony_Holme                    #IanStation
+          prob: 0.2
+
         - id: ClothingShoesSkates
           prob: 0.1
         - id: ClothingHandsGlovesColorYellow
@@ -221,6 +240,26 @@
           prob: 0.2
         - id: PlushieSnake
           prob: 0.2
+
+        - id: Toys_DL              #IanStation
+          prob: 0.2 
+        - id: Chani_Verovskaya             #IanStation
+          prob: 0.2
+        - id: Jones_Wolf        #IanStation
+          prob: 0.2
+        - id: Plush_Rimukius        #IanStation
+          prob: 0.2
+        - id: Plush_Yuna                 #IanStation
+          prob: 0.2
+        - id: Julia_SnezhinkovaA                #IanStation
+          prob: 0.2
+        - id: Maria_Holmes                 #IanStation
+          prob: 0.2
+        - id: Tony_Holme                    #IanStation
+          prob: 0.2
+
+
+
         - id: ClothingHandsGlovesColorYellow
           prob: 0.05
         - id: ClothingBeltQuiver

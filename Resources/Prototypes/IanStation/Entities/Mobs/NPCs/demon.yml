@@ -1,0 +1,24 @@
+- type: entity
+  parent: BaseMobFlesh
+  id: MobDemon
+  components:
+  - type: Sprite
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: clamp1
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: clamp1
+      Critical:
+        Base: dead
+      Dead:
+        Base: dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      30: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 4
+

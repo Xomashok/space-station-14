@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingBackpackDuffelSyndicate
+  id: ASetOfZombies
+  name: Набор для зомбифицирования цели
+  description: в набор входит таблетка ромерола и бутылочка токсина. 
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckScarfStripedSyndieRed
+      - id: Gauze
+      - id: SurvivalKnife
+      - id: PillRomerol
+      - id: HappyHonkNukieSnacks
+      - id: ToxinChemistryBottle
+

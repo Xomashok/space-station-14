@@ -55,6 +55,8 @@
       - id: ClothingHeadCage # backmen
       - id: ClothingHeadHatCapcap
 
+      - id: ClothingNeckFox # XecoStation
+
 - type: entity
   id: LockerCaptainFilled
   suffix: Filled, AntiqueLaser
@@ -90,6 +92,8 @@
       - id: AntiPsychicKnife  # backmen
       - id: ClothingHeadCage # backmen
 
+      - id: ClothingNeckFox # XecoStation
+
 - type: entity
   id: LockerCaptainFilledNoLaser
   suffix: Filled
@@ -114,6 +118,9 @@
       - id: RubberStampCaptain
       - id: JetpackCaptainFilled
       - id: MedalCase
+
+
+      - id: ClothingNeckFox # XecoStation
 
 - type: entity
   id: LockerHeadOfPersonnelFilled
@@ -228,6 +235,11 @@
       - id: MetempsychoticMachineCircuitboard # backmen
       - id: MaterialBiomass # backmen
 
+      - id: BiofabricatorMachineCircuitboard         # XecoStation
+      - id: BiomassReclaimerMachineCircuitboard     # XecoStation
+      - id: MaterialBiomass                        # XecoStation
+      - id: MaterialBiomass                      # XecoStation
+
 - type: entity
   id: LockerChiefMedicalOfficerFilled
   suffix: Filled
@@ -254,11 +266,11 @@
       - id: MetempsychoticMachineCircuitboard # backmen
       - id: MaterialBiomass # backmen
 
-      - id: BiofabricatorMachineCircuitboard
-      - id: BiomassReclaimerMachineCircuitboard
-      - id: MaterialBiomass
-      - id: MaterialBiomass
-
+      - id: BiofabricatorMachineCircuitboard         # XecoStation
+      - id: BiomassReclaimerMachineCircuitboard     # XecoStation
+      - id: MaterialBiomass                        # XecoStation
+      - id: MaterialBiomass                      # XecoStation
+ 
 
 - type: entity
   id: LockerResearchDirectorFilledHardsuit
