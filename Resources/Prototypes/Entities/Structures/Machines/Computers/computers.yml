@@ -103,7 +103,7 @@
     tags:
       - Syndicate
   - type: RadarConsole
-    maxRange: 1536
+    maxRange: 384
   - type: WorldLoader
     radius: 1536
   - type: PointLight
@@ -968,6 +968,7 @@
     flags:
     - Anchorable
   - type: CargoPalletConsole
+    cashType: BillOfExchange
   - type: ActivatableUI
     key: enum.CargoPalletConsoleUiKey.Sale
   - type: UserInterface

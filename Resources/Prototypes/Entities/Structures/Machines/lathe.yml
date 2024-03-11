@@ -164,6 +164,7 @@
       - Ring
       - SapphireRing
       - HandheldStationMap
+      - ClothingHeadHatWelding
   - type: EmagLatheRecipes
     emagStaticRecipes:
        - CartridgePistol
@@ -1026,6 +1027,7 @@
       - ClothingHeadHatWarden
       - ClothingUniformJumpsuitWarden
       - ClothingUniformJumpskirtWarden
+      - ClothingHeadHatParamedicsoft
       # Winter outfits
       - ClothingOuterWinterCap
       - ClothingOuterWinterCE
