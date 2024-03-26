@@ -81,3 +81,13 @@
     - Bartender
     - ServiceWorker
     - Chef
+
+- type: listing
+  id: UplinkOmnizineChemistryBottle
+  name: uplink-OmnizineChemistryBottle-name
+  description: uplink-OmnizineChemistryBottle-desc
+  productEntity: OmnizineChemistryBottle
+  cost:
+    Telecrystal: 2
+  categories:
+  - UplinkMisc

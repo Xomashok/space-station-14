@@ -1,6 +1,7 @@
 - type: entity
   id: CrateFunToys_DL
   parent: CrateGenericSteel
+  name: ящик с игрушками корпорации DL
   components:
   - type: StorageFill
     contents:
@@ -19,4 +20,6 @@
       - id: Maria_Holmes
         amount: 1
       - id: Tony_Holme
+        amount: 1
+      - id: Archchip_Proskurin
         amount: 1

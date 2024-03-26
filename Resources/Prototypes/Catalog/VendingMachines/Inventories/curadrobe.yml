@@ -12,3 +12,5 @@
     ClothingShoesBootsLaceup: 2
     ClothingHeadsetService: 2
     PrinterDocFlatpack: 2 # Corvax-Printer
+  emaggedInventory:      #IanStation
+    SyndieHandyFlag: 1 #IanStation

@@ -1,0 +1,14 @@
+- type: constructionGraph
+  id: graphRinaB
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: nodeRinaB
+      steps:
+      - material: Bluespace
+        amount: 1
+        doAfter: 1
+
+  - node: nodeRinaB
+    entity: RinaB

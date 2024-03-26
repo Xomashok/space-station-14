@@ -110,3 +110,7 @@
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1
+
+  emaggedInventory:      #IanStation
+    ClothingUniformJumpsuitRecruitSyndie: 1 #IanStation
+

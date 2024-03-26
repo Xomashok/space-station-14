@@ -17,3 +17,5 @@
     Welder: 1
     Screwdriver: 2
     Crowbar: 2
+  emaggedInventory: #IanStation
+    FoodBurgerRobot: 1 #IanStation
