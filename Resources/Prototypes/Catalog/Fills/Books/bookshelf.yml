@@ -151,7 +151,11 @@
         orGroup: BookPool
 
       - id: BookDLF # IanStation
-        prob: 0.9
+        prob: 0.2
+        orGroup: BookPool
+
+      - id: BookDLF2 # IanStation
+        prob: 0.2
         orGroup: BookPool
 
       - id: BookSpaceEncyclopedia

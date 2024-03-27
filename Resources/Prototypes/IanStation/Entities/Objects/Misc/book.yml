@@ -19,7 +19,7 @@
   parent: BookBase
   id: BookDLToni
   name: Первое инженерное отделение  
-  description: Книга выпущенная корпорацией DL описывающая события случившиеся с развед-отрядом солнечной Федерации происходившие в 2972 году. Все официальные источники отрицают документальность этой книги.
+  description: Книга выпущенная корпорацией DL описывающая события случившиеся с развед-отрядом солнечной Федерации происходившие в 2972 году. Все официальные источники отрицают документальность этой книги. На задней стороне написаны благодарности Тони Холмсу.
   components:
     - type: Sprite
       sprite: IanStation/Objects/Misc/bookDL.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: BookBase
   id: BookDLF
-  name: Как торгуют фелинидами?
-  description: Книга рассказивает о том как продают и оценивают фелинидов. Вам понятно, что данной книге не место в владениях NanoTrasen. Книга написана жирным шрифтом видео к чему бы это? 
+  name: Как, торгуют фелинидами?
+  description: Книга рассказывает о том как продают и оценивают фелинидов. Вам понятно, что данной книге не место в владениях NanoTrasen. Книга написана жирным шрифтом видео к чему бы это?
   components:
     - type: Sprite
       sprite: IanStation/Objects/Misc/bookDL.rsi
@@ -53,7 +53,7 @@
   parent: BookBase
   id: BookDLS
   name: Пособие по краже.
-  description: Нет... я выше этого... 
+  description: Нет... я выше этого... На задней стороне написаны благодарности Тони Холмсу.
   components:
     - type: Sprite
       sprite: IanStation/Objects/Misc/bookDL.rsi
@@ -133,3 +133,20 @@
           Blunt: 10
     - type: Paper
       content: book-text-DLB4
+
+- type: entity
+  parent: BookBase
+  id: BookDLF2
+  name: Как, мучают фелинидов?
+  description: Книга рассказывает о том как мучают фелинидов. Вам понятно, что данной книге не место в владениях NanoTrasen.
+  components:
+    - type: Sprite
+      sprite: IanStation/Objects/Misc/bookDL.rsi
+      layers:
+        - state: book9
+    - type: MeleeWeapon
+      damage:
+        types:
+          Blunt: 12
+    - type: Paper
+      content: book-text-DLF2

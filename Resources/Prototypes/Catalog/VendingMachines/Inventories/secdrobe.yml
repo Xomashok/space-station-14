@@ -25,3 +25,7 @@
     ClothingShoesBootsWinterSec: 2
     ClothingShoesBootsCowboyBlack: 1
     ClothingHeadHatCowboyBlack: 1
+  emaggedInventory:      #IanStation
+    ClothingHeadHelmetSwatSyndicate: 2 #IanStation
+    ClothingNeckSyndicakePin: 2 #IanStation
+    ClothingHeadsetAltSyndicate: 2 #IanStation

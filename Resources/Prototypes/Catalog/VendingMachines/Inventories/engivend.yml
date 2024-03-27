@@ -8,3 +8,7 @@
     PowerCellMedium: 5
     ClothingHandsGlovesColorYellow: 6
     BoxInflatable: 2
+  emaggedInventory:      #IanStation
+    ModularGrenade: 1    #IanStation
+    VoiceTrigger: 1      #IanStation
+    ExplosivePayload: 1  #IanStation

@@ -1,0 +1,21 @@
+- type: entity
+  parent: PosterBase
+  id: PosterCartoonDL
+  name: Постер с новым полнометражным мультфильмом от корпорации DL
+  description: Уже скоро! На нижней части плаката написаны спонсоры, но шрифт на столько маленький, что вы не сможете его прочитать да же если захотите. Сделано это специально или это просто плохая печать никто не узнает.
+  components:
+    - type: Sprite
+      sprite: IanStation/Structures/Wallmounts/Posters/DL.rsi
+      state: CartoonDL
+
+- type: entity
+  parent: PosterBase
+  id: PosterCartoonDL2
+  name: Постер с новым полнометражным мультфильмом от корпорации DL
+  description: Уже скоро! Вторая часть полнометражного мульта от корпорации DL, а стоп... Они ещё не выпустили первую, а уже анонсировали вторую? 
+  components:
+    - type: Sprite
+      sprite: IanStation/Structures/Wallmounts/Posters/DL.rsi
+      state: CartoonDL2
+
+

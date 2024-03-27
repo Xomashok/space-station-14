@@ -20,4 +20,9 @@
     FoodButter: 4
     FoodCheese: 1
     FoodMeat: 6
-    
+
+  emaggedInventory:      #IanStation
+    SpaceCarpCube: 3 #IanStation 
+    FoodMeatHuman: 3 #IanStation
+    HappyHonkNukieSnacks: 1 #IanStation
+

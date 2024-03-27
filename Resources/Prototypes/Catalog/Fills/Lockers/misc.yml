@@ -123,21 +123,37 @@
 
 
         - id: Toys_DL              #IanStation
-          prob: 0.2 
+          prob: 0.1 
         - id: Chani_Verovskaya             #IanStation
-          prob: 0.2
+          prob: 0.1
         - id: Jones_Wolf        #IanStation
-          prob: 0.2
+          prob: 0.1
         - id: Plush_Rimukius        #IanStation
-          prob: 0.2
+          prob: 0.1
         - id: Plush_Yuna                 #IanStation
-          prob: 0.2
+          prob: 0.1
         - id: Julia_SnezhinkovaA                #IanStation
-          prob: 0.2
+          prob: 0.1
         - id: Maria_Holmes                 #IanStation
-          prob: 0.2
+          prob: 0.1
         - id: Tony_Holme                    #IanStation
-          prob: 0.2
+          prob: 0.1
+        - id: Archchip_Proskurin                 #IanStation
+          prob: 0.1
+        - id: BookDLS                 #IanStation
+          prob: 0.05
+
+        - id: BookDLF2 #IanStation
+          prob: 0.05
+
+        - id: ClothingHandsDispelGloves                 #IanStation Backmen
+          prob: 0.005                                   
+        - id: ClothingHandsGlovesColorYellowUnsulated                #IanStation Backmen
+          prob: 0.005       
+        - id: BedsheetInvisibilityCloak                #IanStation Backmen
+          prob: 0.005       
+        - id:  ClothingEyesTelegnosisSpectacles       #IanStation Backmen
+          prob: 0.005 
 
         - id: ClothingShoesSkates
           prob: 0.1
@@ -257,7 +273,20 @@
           prob: 0.2
         - id: Tony_Holme                    #IanStation
           prob: 0.2
+        - id: BookDLS                 #IanStation
+          prob: 0.05
 
+        - id: BookDLF2 #IanStation
+          prob: 0.05
+
+        - id: ClothingHandsDispelGloves                 #IanStation Backmen
+          prob: 0.005                                   
+        - id: ClothingHandsGlovesColorYellowUnsulated                #IanStation Backmen
+          prob: 0.005       
+        - id: BedsheetInvisibilityCloak                #IanStation Backmen
+          prob: 0.005       
+        - id:  ClothingEyesTelegnosisSpectacles       #IanStation Backmen
+          prob: 0.005 
 
 
         - id: ClothingHandsGlovesColorYellow
