@@ -1,0 +1,12 @@
+- type: construction
+  name: Руна
+  id: craftingRinaG
+  graph: graphRinaG
+  startNode: start
+  targetNode: nodeRinaG
+  category: construction-category-misc
+  description: rune for rituals
+  objectType: Item
+  icon:
+    sprite: IanStation/Objects/Magic/Rins.rsi
+    state: normalG

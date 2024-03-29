@@ -1,0 +1,14 @@
+- type: constructionGraph
+  id: graphRinaW
+  start: start
+  graph:
+  - node: start
+    edges:
+    - to: nodeRinaW
+      steps:
+      - material: Bluespace
+        amount: 1
+        doAfter: 1
+
+  - node: nodeRinaW
+    entity: RinaW

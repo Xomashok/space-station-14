@@ -342,9 +342,9 @@
         maxVol: 30
         reagents:
         - ReagentId: Stimulants
-          Quantity: 5
-        - ReagentId: NuclearCola
           Quantity: 20
+        - ReagentId: NuclearCola
+          Quantity: 5
         - ReagentId: Ice
           Quantity: 5
   - type: Tag

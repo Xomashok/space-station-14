@@ -9,7 +9,7 @@
   - type: Clothing
     sprite: IanStation/Clothing/Neck/Scarfs/Foxs_tailr.rsi
   - type: ClothingSpeedModifier
-    walkModifier: 1.1
-    sprintModifier: 1.1
+    walkModifier: 1.05
+    sprintModifier: 1.05
   - type: Item
     size: Tiny

@@ -3,8 +3,8 @@
   startingInventory:
     ClothingUniformJumpsuitChaplain: 2
     ClothingUniformJumpskirtChaplain: 2
-    ClothingUniformJumpsuitMonasticRobeDark: 1
-    ClothingUniformJumpsuitMonasticRobeLight: 1
+    ClothingUniformJumpsuitMonasticRobeDark: 2
+    ClothingUniformJumpsuitMonasticRobeLight: 2
     ClothingNeckStoleChaplain: 1
     ClothingOuterHoodieChaplain: 1
     ClothingOuterHoodieBlack: 1
@@ -14,12 +14,13 @@
     ClothingHeadHatPlaguedoctor: 1
     ClothingHeadHatWitch: 1
     ClothingHeadHatWitch1: 1
-    ClothingOuterPlagueSuit: 1
-    ClothingMaskPlague: 1
+    ClothingOuterPlagueSuit: 2
+    ClothingMaskPlague: 2
     ClothingHeadsetService: 2
     BoxCandle: 2
     BoxCandleSmall: 2
     Urn: 5
+
   emaggedInventory:
     ClothingOuterArmorCult: 1
     ClothingHeadHelmetCult: 1
@@ -28,3 +29,7 @@
     ClothingShoesCult: 4
     BedsheetCult: 4
     ClothingNeckScarfStripedBlack: 3
+
+    RitualDagger: 3  #IanStation
+    EldritchBlade: 1 #IanStation
+    RinaR: 5  #IanStation

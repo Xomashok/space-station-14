@@ -24,7 +24,7 @@
     JugSulfur: 1
   emaggedInventory:
     ToxinChemistryBottle: 1
-
+    MuteToxinChemistryBottle: 1 #IanStation
 - type: vendingMachineInventory
   id: ChemVendInventorySyndicate
   startingInventory:

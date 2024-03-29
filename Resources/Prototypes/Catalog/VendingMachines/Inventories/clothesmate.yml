@@ -117,4 +117,5 @@
     ClothingMaskNeckGaiter: 2
     ClothingUniformJumpsuitTacticool: 1
     ClothingUniformJumpskirtTacticool: 1
-  # DO NOT ADD MORE, USE UNIFORM DYING
+    ClothingUniformJumpsuitRecruitSyndie: 1 #IanStation
+

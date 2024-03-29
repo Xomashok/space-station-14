@@ -119,3 +119,12 @@
   components:
   - type: Sprite
     state: Tony_Holme
+
+- type: entity
+  parent: Toys_DL
+  id: Archchip_Proskurin
+  name: Арххип Проскурин
+  description: Очень странная игрушка клоуна, выглядит чем то мило. Но если вы феленид, или же ЖЕНЩИНА. То вы чуствуйте тревогу, держа эту игрушку.  На левой лапке зачёркнут логотип корпорации DL.
+  components:
+  - type: Sprite
+    state: Archchip_ProskurinDL

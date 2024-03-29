@@ -14,3 +14,5 @@
     EncryptionKeyScience: 2
     EncryptionKeySecurity: 1
     EncryptionKeyService: 3
+  emaggedInventory:      #IanStation
+    SyndiPDA: 1 #IanStation

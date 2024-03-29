@@ -9,6 +9,22 @@
   "states": [
     {
       "name": "normal"
+    },
+
+    {
+      "name": "normalW"
+    },
+
+    {
+      "name": "normalB"
+    },
+
+    {
+      "name": "normalG"
+    },
+
+    {
+      "name": "normalY"
     }
   ]
 }

@@ -17,3 +17,8 @@
     PaperCNCSheet: 6
     MysteryFigureBox: 2
     BooksBag: 3
+  emaggedInventory:      #IanStation
+    ToyFigurineFootsoldier: 4 #IanStation
+    ToyFigurineNukie: 3 #IanStation
+    ToyFigurineNukieElite: 2 #IanStation
+    ToyFigurineNukieCommander: 3 #IanStation
