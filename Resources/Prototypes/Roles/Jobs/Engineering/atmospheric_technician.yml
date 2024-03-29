@@ -1,3 +1,4 @@
+
 - type: job
   id: AtmosphericTechnician
   name: job-name-atmostech
@@ -15,12 +16,6 @@
   - Engineering
   - External
   - Atmospherics
-  #start-backmen: currency
-  minBankBalance: 150
-  maxBankBalance: 250
-  wageDepartment: Engineering
-  wage: 50
-  #end-backmen: currency
 
 - type: startingGear
   id: AtmosphericTechnicianGear
@@ -32,9 +27,7 @@
     id: AtmosPDA
     belt: ClothingBeltUtilityEngineering
     ears: ClothingHeadsetEngineering
-    underwearb: ClothingUnderwearBottomBoxersWhite # IanStation
-  underweart: ClothingUnderwearTopWhite # IanStation
-  underwearb: ClothingUnderwearBottomPantiesWhite # IanStation
   innerClothingSkirt: ClothingUniformJumpskirtAtmos
   satchel: ClothingBackpackSatchelAtmosphericsFilled
   duffelbag: ClothingBackpackDuffelAtmosphericsFilled
+
